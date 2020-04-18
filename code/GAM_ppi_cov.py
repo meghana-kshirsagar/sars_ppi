@@ -63,7 +63,7 @@ def tune_ebm(X_train, y_train):
     metric_idx=1  # index where AUC is stored
     for interac in [50, 100, 500]: 
         clf = ExplainableBoostingClassifier(random_state=seed, interactions=interac)
-        cv_results = clf(logreg, X_train, y_train, cv=3, scoring='average_precision')
+        cv_results = cross_validate(clf, X_train, y_train, cv=3, scoring='average_precision')
         reslist.append((cval, np.mean(cv_results['test_score'])))
     print(*reslist, sep='\n')
     reslist = np.asarray(reslist)
@@ -77,8 +77,6 @@ if __name__ == "__main__":
     posfile = sys.argv[1]
     negfile = sys.argv[2]
     negfrac = float(sys.argv[3])
- 
-    # reading data
     print('Reading pos file... ')
     X_pos = pd.read_csv(posfile, compression='gzip', header=0)
     npos = X_pos.shape[0]
@@ -86,11 +84,9 @@ if __name__ == "__main__":
     X_neg = pd.read_csv(negfile, compression='gzip', header=0)
     nneg = X_neg.shape[0]
     feat_names=X_pos.columns
-    # sample random negatives
     samp = np.random.randint(0,nneg,int(npos*negfrac))
     X_neg = X_neg.iloc[samp, :]
     nneg = X_neg.shape[0]
-
     X_cov = pd.DataFrame(np.row_stack((X_pos, X_neg)), columns=feat_names)
     y_cov = np.zeros((npos+nneg,1))
     y_cov[range(npos)]=1
@@ -111,7 +107,7 @@ if __name__ == "__main__":
         X_train_cov, X_test_cov = X_cov.iloc[train_idxes_cov[split],:], X_cov.iloc[test_idxes_cov[split],:]
         y_train_cov, y_test_cov = y_cov[train_idxes_cov[split]], y_cov[test_idxes_cov[split]]
         y_train_cov = y_train_cov.ravel()
-        clf = tune_ebm(X_train, y_train)
+        clf = tune_ebm(X_train_cov, y_train_cov)
         curr_perf = []
         y_pred_cov = clf.predict(X_test_cov)
         curr_perf += [metrics.accuracy_score(y_test_cov, y_pred_cov)]

@@ -82,14 +82,21 @@ if __name__ == "__main__":
  
     # read human proteins to select as positives
     krogan_ppis = pd.read_csv(ppis_file, header=0, index_col=0)
-    hprots_jeff = pd.read_table(pos_hprots_file)
-    pick_idx = np.where([(krogan_ppis[i,2]==hprots_jeff[i]) for i in range(hprots_jeff)])[0]
+    print(krogan_ppis.head())
+    with open(pos_hprots_file, 'r') as hpin:
+        hprots_jeff = [line.strip() for line in hpin]
+    print(hprots_jeff)
+    print(krogan_ppis.shape)
+    print(len(hprots_jeff))
+    pick_idx = np.concatenate([np.where(krogan_ppis.iloc[:,1]==hprots_jeff[i])[0] for i in range(len(hprots_jeff))])
     print(pick_idx)
 
     # reading data
     print('Reading pos file... ')
     X_pos = pd.read_csv(posfile, compression='gzip', header=0)
     npos = X_pos.shape[0]
+    X_train_pos = X_pos.iloc[pick_idx, :]
+    X_test_pos = X_pos.drop(pick_idx)
     print('Reading neg file... ')
     X_neg = pd.read_csv(negfile, compression='gzip', header=0)
     nneg = X_neg.shape[0]
@@ -99,39 +106,27 @@ if __name__ == "__main__":
     X_neg = X_neg.iloc[samp, :]
     nneg = X_neg.shape[0]
 
-    X_cov = pd.DataFrame(np.row_stack((X_pos, X_neg)), columns=feat_names)
-    y_cov = np.zeros((npos+nneg,1))
-    y_cov[range(npos)]=1
-    print("X size: ",X_cov.shape[0],'x',X_cov.shape[1])
-    print("y size: ",y_cov.shape[0],'x',y_cov.shape[1])
+    # generate train/test splits
+    X_train_neg, X_test_neg = train_test_split(X_neg, test_size=0.2)
+    X_train = pd.DataFrame(np.row_stack((X_train_pos, X_train_neg)), columns=feat_names)
+    X_test = pd.DataFrame(np.row_stack((X_test_pos, X_test_neg)), columns=feat_names)
+    y_test = np.zeros((X_test.shape[0],1))
+    y_train[range(X_train_pos.shape[0])]=1
+    y_test[range(X_test_pos.shape[0])]=1
+    print("X size: ",X_train.shape[0],'x',X_train.shape[1])
+    print("y size: ",y_train.shape[0],'x',y_train.shape[1])
+    print("X-test size: ",X_test.shape[0],'x',X_test.shape[1])
+    print("y-test size: ",y_test.shape[0],'x',y_test.shape[1])
     
-    # create cov splits
-    kf = StratifiedKFold(n_splits=5, shuffle=True)
-    train_idxes_cov = []
-    test_idxes_cov = []
-    for train_index, test_index in kf.split(X_cov,y_cov):
-        train_idxes_cov.append(train_index)
-        test_idxes_cov.append(test_index)
-    
-    
-    splitwise_perf = []
-    for split in range(0,5):
-        X_train_cov, X_test_cov = X_cov.iloc[train_idxes_cov[split],:], X_cov.iloc[test_idxes_cov[split],:]
-        y_train_cov, y_test_cov = y_cov[train_idxes_cov[split]], y_cov[test_idxes_cov[split]]
-        y_train_cov = y_train_cov.ravel()
-        clf = tune_ebm(X_train, y_train)
-        curr_perf = []
-        y_pred_cov = clf.predict(X_test_cov)
-        curr_perf += [metrics.accuracy_score(y_test_cov, y_pred_cov)]
-        print(metrics.confusion_matrix(y_test_cov, y_pred_cov))
-        y_pred_cov = clf.predict_proba(X_test_cov)
-        curr_perf += [get_aucpr(y_test_cov, y_pred_cov[:,1])]
-        curr_perf += [get_auc(y_test_cov, y_pred_cov[:,1])]
-        print(curr_perf)
-        splitwise_perf.append(curr_perf)
-        # save model
-        save_model(clf,format("models/ebm_covonly_split%d_1to1_int.pkl" % split))
-    
-    
-    print(np.mean(splitwise_perf,axis=0))
+    clf = tune_ebm(X_train, y_train)
+    curr_perf = []
+    y_pred = clf.predict(X_test)
+    curr_perf += [metrics.accuracy_score(y_test, y_pred)]
+    print(metrics.confusion_matrix(y_test, y_pred))
+    y_pred = clf.predict_proba(X_test)
+    curr_perf += [get_aucpr(y_test, y_pred[:,1])]
+    curr_perf += [get_auc(y_test, y_pred[:,1])]
+    print(curr_perf)
+    # save model
+    #save_model(clf,format("models/ebm_covonly_split%d_1to1_int.pkl" % split))
     
