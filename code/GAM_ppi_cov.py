@@ -92,6 +92,7 @@ if __name__ == "__main__":
     y_cov[range(npos)]=1
     print("X size: ",X_cov.shape[0],'x',X_cov.shape[1])
     print("y size: ",y_cov.shape[0],'x',y_cov.shape[1])
+    del X_neg
     
     # create cov splits
     kf = StratifiedKFold(n_splits=5, shuffle=True)
