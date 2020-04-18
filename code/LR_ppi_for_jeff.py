@@ -9,6 +9,7 @@ from sklearn.preprocessing import MinMaxScaler, StandardScaler
 #from interpret.data import ClassHistogram
 from sklearn import metrics
 from sklearn.model_selection import train_test_split, cross_validate, StratifiedKFold
+from sklearn.linear_model import LogisticRegression
 
 import pickle
 from interpret.glassbox import ExplainableBoostingClassifier
@@ -114,6 +115,7 @@ if __name__ == "__main__":
     samp = np.random.randint(0,nneg,int(npos*negfrac))
     X_neg = X_neg_all.iloc[samp, :]
     nneg = X_neg.shape[0]
+    del X_neg_all
 
     # generate train/test splits
     X_train_neg, X_test_neg = train_test_split(X_neg, test_size=0.2)
@@ -143,6 +145,7 @@ if __name__ == "__main__":
 
     # predict on larger set, output predictions
     print("Predicting on all test pairs now... ")
+    X_neg_all = pd.read_csv(neg_feats_file, header=0)
     scores = (clf.predict_proba(X_neg_all))[:,1]
     neg_pps['score'] = scores   
     neg_pps.to_csv(outfile)
