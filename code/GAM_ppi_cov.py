@@ -64,7 +64,7 @@ def tune_ebm(X_train, y_train):
     for interac in [50, 100, 500]: 
         clf = ExplainableBoostingClassifier(random_state=seed, interactions=interac)
         cv_results = cross_validate(clf, X_train, y_train, cv=3, scoring='average_precision')
-        reslist.append((cval, np.mean(cv_results['test_score'])))
+        reslist.append((interac, np.mean(cv_results['test_score'])))
     print(*reslist, sep='\n')
     reslist = np.asarray(reslist)
     bestid = np.where(reslist[:,metric_idx]==max(reslist[:,metric_idx]))[0][0]
