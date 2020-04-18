@@ -63,8 +63,8 @@ def tune_ebm(X_train, y_train):
     metric_idx=1  # index where AUC is stored
     for interac in [50, 100, 500]: 
         clf = ExplainableBoostingClassifier(random_state=seed, interactions=interac)
-        cv_results = clf(logreg, X_train, y_train, cv=3, scoring='average_precision')
-        reslist.append((cval, np.mean(cv_results['test_score'])))
+        cv_results = cross_validate(clf, X_train, y_train, cv=3, scoring='average_precision')
+        reslist.append((interac, np.mean(cv_results['test_score'])))
     print(*reslist, sep='\n')
     reslist = np.asarray(reslist)
     bestid = np.where(reslist[:,metric_idx]==max(reslist[:,metric_idx]))[0][0]
@@ -98,7 +98,8 @@ if __name__ == "__main__":
     X_train_pos = X_pos.iloc[pick_idx, :]
     X_test_pos = X_pos.drop(pick_idx)
     print('Reading neg file... ')
-    X_neg = pd.read_csv(negfile, compression='gzip', header=0)
+    #X_neg = pd.read_csv(negfile, compression='gzip', header=0)
+    X_neg = pd.read_csv(negfile, header=0)
     nneg = X_neg.shape[0]
     feat_names=X_pos.columns
     # sample random negatives
@@ -111,6 +112,7 @@ if __name__ == "__main__":
     X_train = pd.DataFrame(np.row_stack((X_train_pos, X_train_neg)), columns=feat_names)
     X_test = pd.DataFrame(np.row_stack((X_test_pos, X_test_neg)), columns=feat_names)
     y_test = np.zeros((X_test.shape[0],1))
+    y_train = np.zeros((X_train.shape[0],1))
     y_train[range(X_train_pos.shape[0])]=1
     y_test[range(X_test_pos.shape[0])]=1
     print("X size: ",X_train.shape[0],'x',X_train.shape[1])
