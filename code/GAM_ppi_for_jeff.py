@@ -4,16 +4,15 @@ import sys
 import numpy as np
 from sklearn.model_selection import train_test_split
 #import seaborn as sns
-from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
-from interpret import show
-from interpret.data import ClassHistogram
+#from interpret import show
+#from interpret.data import ClassHistogram
 from sklearn import metrics
-from sklearn.model_selection import train_test_split, KFold, cross_validate, GridSearchCV, StratifiedKFold
+from sklearn.model_selection import train_test_split, cross_validate, StratifiedKFold
 
 import pickle
-from interpret.glassbox import ExplainableBoostingClassifier, LogisticRegression, ClassificationTree, DecisionListClassifier
-from interpret.perf import ROC
+from interpret.glassbox import ExplainableBoostingClassifier
+#from interpret.perf import ROC
 
 seed=0
 
@@ -23,21 +22,6 @@ def normalize_train_test(X_train, X_test):
     X_train = scaler.transform(X_train)
     X_test = scaler.transform(X_test)
     return X_train, X_test
-
-def impute_train_test(X_train, X_test):
-    #replace -8888 values with Nan and then use simple imputer 
-    imp_mean = SimpleImputer(missing_values=np.nan, strategy='mean')
-    imp_mean.fit(X_train)
-    X_train = imp_mean.transform(X_train)
-    X_test = imp_mean.transform(X_test)
-    return X_train, X_test
-
-def imputeX(X):
-    #replace -8888 values with Nan and then use simple imputer 
-    imp_mean = SimpleImputer(missing_values=np.nan, strategy='mean')
-    imp_mean.fit(X)
-    X = imp_mean.transform(X)
-    return X
 
 def get_aucpr(y_true, y_pred, pos_label=1):
     #fpr, tpr, thresholds = sklearn.metrics.roc_curve(y_true, pred, pos_label=2)
@@ -74,11 +58,18 @@ def tune_ebm(X_train, y_train):
 
 
 if __name__ == "__main__":
-    posfile = sys.argv[1]
-    negfile = sys.argv[2]
+   
+    if len(sys.argv) < 8:
+        print("Usage: <pos_feats_file>  <neg_feats_file>  <negatives-frac>  <ppis_file>  <all_pps_file>  <pos_hprots_file>  <outfile>\n")
+        exit(1)
+
+    pos_feats_file = sys.argv[1]
+    neg_feats_file = sys.argv[2]
     negfrac = float(sys.argv[3])
     ppis_file = sys.argv[4]
-    pos_hprots_file = sys.argv[5]
+    neg_pps_file = sys.argv[5]
+    pos_hprots_file = sys.argv[6]
+    outfile = sys.argv[7]
  
     # read human proteins to select as positives
     krogan_ppis = pd.read_csv(ppis_file, header=0, index_col=0)
@@ -91,20 +82,23 @@ if __name__ == "__main__":
     pick_idx = np.concatenate([np.where(krogan_ppis.iloc[:,1]==hprots_jeff[i])[0] for i in range(len(hprots_jeff))])
     print(pick_idx)
 
-    # reading data
+    # read negative protein pairs
+    neg_pps = pd.read_csv(neg_pps_file, header=0, index_col=0)
+
+    # reading features
     print('Reading pos file... ')
-    X_pos = pd.read_csv(posfile, compression='gzip', header=0)
+    X_pos = pd.read_csv(pos_feats_file, compression='gzip', header=0)
     npos = X_pos.shape[0]
     X_train_pos = X_pos.iloc[pick_idx, :]
     X_test_pos = X_pos.drop(pick_idx)
     print('Reading neg file... ')
-    #X_neg = pd.read_csv(negfile, compression='gzip', header=0)
-    X_neg = pd.read_csv(negfile, header=0)
-    nneg = X_neg.shape[0]
+    #X_neg = pd.read_csv(neg_feats_file, compression='gzip', header=0)
+    X_neg_all = pd.read_csv(neg_feats_file, header=0)
+    nneg = X_neg_all.shape[0]
     feat_names=X_pos.columns
     # sample random negatives
     samp = np.random.randint(0,nneg,int(npos*negfrac))
-    X_neg = X_neg.iloc[samp, :]
+    X_neg = X_neg_all.iloc[samp, :]
     nneg = X_neg.shape[0]
 
     # generate train/test splits
@@ -119,8 +113,12 @@ if __name__ == "__main__":
     print("y size: ",y_train.shape[0],'x',y_train.shape[1])
     print("X-test size: ",X_test.shape[0],'x',X_test.shape[1])
     print("y-test size: ",y_test.shape[0],'x',y_test.shape[1])
-    
-    clf = tune_ebm(X_train, y_train)
+
+    # train and test, performance output    
+    #clf = tune_ebm(X_train, y_train)
+    clf = ExplainableBoostingClassifier(random_state=seed, interactions=100)
+    clf.fit(X_train, y_train)
+    print("Finished training ...")
     curr_perf = []
     y_pred = clf.predict(X_test)
     curr_perf += [metrics.accuracy_score(y_test, y_pred)]
@@ -128,7 +126,14 @@ if __name__ == "__main__":
     y_pred = clf.predict_proba(X_test)
     curr_perf += [get_aucpr(y_test, y_pred[:,1])]
     curr_perf += [get_auc(y_test, y_pred[:,1])]
-    print(curr_perf)
+    print("Performance: ",curr_perf)
+
+    # predict on larger set, output predictions
+    print("Predicting on all test pairs now... ")
+    scores = (clf.predict_proba(X_neg_all))[:,1]
+    neg_pps['score'] = scores   
+    neg_pps.to_csv(outfile)
+    
     # save model
     #save_model(clf,format("models/ebm_covonly_split%d_1to1_int.pkl" % split))
     
