@@ -77,7 +77,15 @@ if __name__ == "__main__":
     posfile = sys.argv[1]
     negfile = sys.argv[2]
     negfrac = float(sys.argv[3])
+    ppis_file = sys.argv[4]
+    pos_hprots_file = sys.argv[5]
  
+    # read human proteins to select as positives
+    krogan_ppis = pd.read_csv(ppis_file, header=0, index_col=0)
+    hprots_jeff = pd.read_table(pos_hprots_file)
+    pick_idx = np.where([(krogan_ppis[i,2]==hprots_jeff[i]) for i in range(hprots_jeff)])[0]
+    print(pick_idx)
+
     # reading data
     print('Reading pos file... ')
     X_pos = pd.read_csv(posfile, compression='gzip', header=0)
