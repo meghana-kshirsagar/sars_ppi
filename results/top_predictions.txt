@@ -1,0 +1,350 @@
+#virus_protein	human_protein	score	uniprot_id	status	protein_name	gene_name	protein_length
+SARS-CoV2-nsp13	A2A2Z9	0.833	AN18B_HUMAN	reviewed	Ankyrin repeat domain-containing protein 18B	ANKRD18B	Homo sapiens (Human)	1011
+SARS-CoV2-nsp13	A2RUR9	0.885	C144A_HUMAN	reviewed	Coiled-coil domain-containing protein 144A	CCDC144A KIAA0565	Homo sapiens (Human)	1427
+SARS-CoV2-nsp13	A5D8V7	0.88	CC151_HUMAN	reviewed	Coiled-coil domain-containing protein 151	CCDC151	Homo sapiens (Human)	595
+SARS-CoV2-nsp13	A6NC57	0.829	ANR62_HUMAN	reviewed	Ankyrin repeat domain-containing protein 62	ANKRD62	Homo sapiens (Human)	917
+SARS-CoV2-nsp13	A6NC98	0.805	CC88B_HUMAN	reviewed	Coiled-coil domain-containing protein 88B (Brain leucine zipper domain-containing protein) (Gipie) (Hook-related protein 3) (HkRP3)	CCDC88B BRLZ	Homo sapiens (Human)	1476
+SARS-CoV2-nsp13	A6NDK9	0.848	GOG6C_HUMAN	reviewed	Golgin subfamily A member 6C	GOLGA6C	Homo sapiens (Human)	693
+SARS-CoV2-nsp13	A6NDN3	0.83	GOG6B_HUMAN	reviewed	Golgin subfamily A member 6B	GOLGA6B GOLGA	Homo sapiens (Human)	693
+SARS-CoV2-nsp13	A7E2Y1	0.838	MYH7B_HUMAN	reviewed	Myosin-7B (Antigen MLAA-21) (Myosin cardiac muscle beta chain) (Myosin heavy chain 7B, cardiac muscle beta isoform) (Slow A MYH14)	MYH7B KIAA1512	Homo sapiens (Human)	1983
+SARS-CoV2-nsp13	B1AJZ9	0.933	FHAD1_HUMAN	reviewed	Forkhead-associated domain-containing protein 1 (FHA domain-containing protein 1)	FHAD1 KIAA1937	Homo sapiens (Human)	1412
+SARS-CoV2-nsp13	H7BZ55	0.89	CRCC2_HUMAN	reviewed	Putative ciliary rootlet coiled-coil protein 2	CROCC2	Homo sapiens (Human)	1653
+SARS-CoV2-nsp7	O00194	0.754	RB27B_HUMAN	reviewed	Ras-related protein Rab-27B (EC 3.6.5.2) (C25KG)	RAB27B	Homo sapiens (Human)	218
+SARS-CoV2-nsp8	O00203	0.741	AP3B1_HUMAN	reviewed	AP-3 complex subunit beta-1 (Adaptor protein complex AP-3 subunit beta-1) (Adaptor-related protein complex 3 subunit beta-1) (Beta-3A-adaptin) (Clathrin assembly protein complex 3 beta-1 large chain)	AP3B1 ADTB3A	Homo sapiens (Human)	1094
+SARS-CoV2-nsp13	O00291	0.844	HIP1_HUMAN	reviewed	Huntingtin-interacting protein 1 (HIP-1) (Huntingtin-interacting protein I) (HIP-I)	HIP1	Homo sapiens (Human)	1037
+SARS-CoV2-M	O14975	0.773	S27A2_HUMAN	reviewed	Very long-chain acyl-CoA synthetase (VLACS) (VLCS) (EC 6.2.1.-) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Fatty acid transport protein 2) (FATP-2) (Fatty-acid-coenzyme A ligase, very long-chain 1) (Long-chain-fatty-acid--CoA ligase) (EC 6.2.1.3) (Phytanate--CoA ligase) (EC 6.2.1.24) (Solute carrier family 27 member 2) (THCA-CoA ligase) (EC 6.2.1.7) (Very long-chain-fatty-acid-CoA ligase)	SLC27A2 ACSVL1 FACVL1 FATP2 VLACS	Homo sapiens (Human)	620
+SARS-CoV2-nsp7	O14975	0.75	S27A2_HUMAN	reviewed	Very long-chain acyl-CoA synthetase (VLACS) (VLCS) (EC 6.2.1.-) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Fatty acid transport protein 2) (FATP-2) (Fatty-acid-coenzyme A ligase, very long-chain 1) (Long-chain-fatty-acid--CoA ligase) (EC 6.2.1.3) (Phytanate--CoA ligase) (EC 6.2.1.24) (Solute carrier family 27 member 2) (THCA-CoA ligase) (EC 6.2.1.7) (Very long-chain-fatty-acid-CoA ligase)	SLC27A2 ACSVL1 FACVL1 FATP2 VLACS	Homo sapiens (Human)	620
+SARS-CoV2-orf8	O14975	0.794	S27A2_HUMAN	reviewed	Very long-chain acyl-CoA synthetase (VLACS) (VLCS) (EC 6.2.1.-) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Fatty acid transport protein 2) (FATP-2) (Fatty-acid-coenzyme A ligase, very long-chain 1) (Long-chain-fatty-acid--CoA ligase) (EC 6.2.1.3) (Phytanate--CoA ligase) (EC 6.2.1.24) (Solute carrier family 27 member 2) (THCA-CoA ligase) (EC 6.2.1.7) (Very long-chain-fatty-acid-CoA ligase)	SLC27A2 ACSVL1 FACVL1 FATP2 VLACS	Homo sapiens (Human)	620
+SARS-CoV2-orf9c	O14975	0.74	S27A2_HUMAN	reviewed	Very long-chain acyl-CoA synthetase (VLACS) (VLCS) (EC 6.2.1.-) (Arachidonate--CoA ligase) (EC 6.2.1.15) (Fatty acid transport protein 2) (FATP-2) (Fatty-acid-coenzyme A ligase, very long-chain 1) (Long-chain-fatty-acid--CoA ligase) (EC 6.2.1.3) (Phytanate--CoA ligase) (EC 6.2.1.24) (Solute carrier family 27 member 2) (THCA-CoA ligase) (EC 6.2.1.7) (Very long-chain-fatty-acid-CoA ligase)	SLC27A2 ACSVL1 FACVL1 FATP2 VLACS	Homo sapiens (Human)	620
+SARS-CoV2-nsp13	O15020	0.861	SPTN2_HUMAN	reviewed	Spectrin beta chain, non-erythrocytic 2 (Beta-III spectrin) (Spinocerebellar ataxia 5 protein)	SPTBN2 KIAA0302 SCA5	Homo sapiens (Human)	2390
+SARS-CoV2-nsp13	O15061	0.821	SYNEM_HUMAN	reviewed	Synemin (Desmuslin)	SYNM DMN KIAA0353 SYN	Homo sapiens (Human)	1565
+SARS-CoV2-nsp13	O15066	0.841	KIF3B_HUMAN	reviewed	Kinesin-like protein KIF3B (HH0048) (Microtubule plus end-directed kinesin motor 3B) [Cleaved into: Kinesin-like protein KIF3B, N-terminally processed]	KIF3B KIAA0359	Homo sapiens (Human)	747
+SARS-CoV2-nsp13	O15078	0.952	CE290_HUMAN	reviewed	Centrosomal protein of 290 kDa (Cep290) (Bardet-Biedl syndrome 14 protein) (Cancer/testis antigen 87) (CT87) (Nephrocystin-6) (Tumor antigen se2-2)	CEP290 BBS14 KIAA0373 NPHP6	Homo sapiens (Human)	2479
+SARS-CoV2-nsp13	O15083	0.914	ERC2_HUMAN	reviewed	ERC protein 2	ERC2 KIAA0378	Homo sapiens (Human)	957
+SARS-CoV2-nsp13	O43633	0.817	CHM2A_HUMAN	reviewed	Charged multivesicular body protein 2a (Chromatin-modifying protein 2a) (CHMP2a) (Putative breast adenocarcinoma marker BC-2) (Vacuolar protein sorting-associated protein 2-1) (Vps2-1) (hVps2-1)	CHMP2A BC2 CHMP2	Homo sapiens (Human)	222
+SARS-CoV2-nsp8	O43633	0.754	CHM2A_HUMAN	reviewed	Charged multivesicular body protein 2a (Chromatin-modifying protein 2a) (CHMP2a) (Putative breast adenocarcinoma marker BC-2) (Vacuolar protein sorting-associated protein 2-1) (Vps2-1) (hVps2-1)	CHMP2A BC2 CHMP2	Homo sapiens (Human)	222
+SARS-CoV2-nsp13	O43707	0.834	ACTN4_HUMAN	reviewed	Alpha-actinin-4 (Non-muscle alpha-actinin 4)	ACTN4	Homo sapiens (Human)	911
+SARS-CoV2-nsp8	O43823	0.714	AKAP8_HUMAN	reviewed	A-kinase anchor protein 8 (AKAP-8) (A-kinase anchor protein 95 kDa) (AKAP 95)	AKAP8 AKAP95	Homo sapiens (Human)	692
+SARS-CoV2-nsp13	O60282	0.923	KIF5C_HUMAN	reviewed	Kinesin heavy chain isoform 5C (Kinesin heavy chain neuron-specific 2)	KIF5C KIAA0531 NKHC2	Homo sapiens (Human)	957
+SARS-CoV2-nsp13	O60437	0.95	PEPL_HUMAN	reviewed	Periplakin (190 kDa paraneoplastic pemphigus antigen) (195 kDa cornified envelope precursor protein)	PPL KIAA0568	Homo sapiens (Human)	1756
+SARS-CoV2-nsp13	O75116	0.898	ROCK2_HUMAN	reviewed	Rho-associated protein kinase 2 (EC 2.7.11.1) (Rho kinase 2) (Rho-associated, coiled-coil-containing protein kinase 2) (Rho-associated, coiled-coil-containing protein kinase II) (ROCK-II) (p164 ROCK-2)	ROCK2 KIAA0619	Homo sapiens (Human)	1388
+SARS-CoV2-nsp13	O75145	0.847	LIPA3_HUMAN	reviewed	Liprin-alpha-3 (Protein tyrosine phosphatase receptor type f polypeptide-interacting protein alpha-3) (PTPRF-interacting protein alpha-3)	PPFIA3 KIAA0654	Homo sapiens (Human)	1194
+SARS-CoV2-nsp13	O75146	0.816	HIP1R_HUMAN	reviewed	Huntingtin-interacting protein 1-related protein (HIP1-related protein) (Huntingtin-interacting protein 12) (HIP-12)	HIP1R HIP12 KIAA0655	Homo sapiens (Human)	1068
+SARS-CoV2-nsp13	O75150	0.853	BRE1B_HUMAN	reviewed	E3 ubiquitin-protein ligase BRE1B (BRE1-B) (EC 2.3.2.27) (95 kDa retinoblastoma-associated protein) (RBP95) (RING finger protein 40) (RING-type E3 ubiquitin transferase BRE1B)	RNF40 BRE1B KIAA0661	Homo sapiens (Human)	1001
+SARS-CoV2-nsp13	O75330	0.903	HMMR_HUMAN	reviewed	Hyaluronan mediated motility receptor (Intracellular hyaluronic acid-binding protein) (Receptor for hyaluronan-mediated motility) (CD antigen CD168)	HMMR IHABP RHAMM	Homo sapiens (Human)	724
+SARS-CoV2-nsp13	O75334	0.897	LIPA2_HUMAN	reviewed	Liprin-alpha-2 (Protein tyrosine phosphatase receptor type f polypeptide-interacting protein alpha-2) (PTPRF-interacting protein alpha-2)	PPFIA2	Homo sapiens (Human)	1257
+SARS-CoV2-nsp13	O75335	0.9	LIPA4_HUMAN	reviewed	Liprin-alpha-4 (Protein tyrosine phosphatase receptor type f polypeptide-interacting protein alpha-4) (PTPRF-interacting protein alpha-4)	PPFIA4 KIAA0897	Homo sapiens (Human)	1185
+SARS-CoV2-nsp8	O75347	0.789	TBCA_HUMAN	reviewed	Tubulin-specific chaperone A (TCP1-chaperonin cofactor A) (Tubulin-folding cofactor A) (CFA)	TBCA	Homo sapiens (Human)	108
+SARS-CoV2-nsp13	O75528	0.808	TADA3_HUMAN	reviewed	Transcriptional adapter 3 (ADA3 homolog) (hADA3) (STAF54) (Transcriptional adapter 3-like) (ADA3-like protein)	TADA3 ADA3 TADA3L	Homo sapiens (Human)	432
+SARS-CoV2-nsp13	O75665	0.888	OFD1_HUMAN	reviewed	Oral-facial-digital syndrome 1 protein (Protein 71-7A)	OFD1 CXorf5	Homo sapiens (Human)	1012
+SARS-CoV2-orf9c	O75844	0.742	FACE1_HUMAN	reviewed	CAAX prenyl protease 1 homolog (EC 3.4.24.84) (Farnesylated proteins-converting enzyme 1) (FACE-1) (Prenyl protein-specific endoprotease 1) (Zinc metalloproteinase Ste24 homolog)	ZMPSTE24 FACE1 STE24	Homo sapiens (Human)	475
+SARS-CoV2-M	O75964	0.722	ATP5L_HUMAN	reviewed	ATP synthase subunit g, mitochondrial (ATPase subunit g) (ATP synthase membrane subunit g)	ATP5MG ATP5L	Homo sapiens (Human)	103
+SARS-CoV2-nsp7	O75964	0.748	ATP5L_HUMAN	reviewed	ATP synthase subunit g, mitochondrial (ATPase subunit g) (ATP synthase membrane subunit g)	ATP5MG ATP5L	Homo sapiens (Human)	103
+SARS-CoV2-orf9c	O76082	0.726	S22A5_HUMAN	reviewed	Solute carrier family 22 member 5 (High-affinity sodium-dependent carnitine cotransporter) (Organic cation/carnitine transporter 2)	SLC22A5 OCTN2	Homo sapiens (Human)	557
+SARS-CoV2-nsp13	O94804	0.89	STK10_HUMAN	reviewed	Serine/threonine-protein kinase 10 (EC 2.7.11.1) (Lymphocyte-oriented kinase)	STK10 LOK	Homo sapiens (Human)	968
+SARS-CoV2-nsp8	O94804	0.705	STK10_HUMAN	reviewed	Serine/threonine-protein kinase 10 (EC 2.7.11.1) (Lymphocyte-oriented kinase)	STK10 LOK	Homo sapiens (Human)	968
+SARS-CoV2-nsp13	O94964	0.851	SOGA1_HUMAN	reviewed	Protein SOGA1 (SOGA family member 1) (Suppressor of glucose by autophagy) (Suppressor of glucose, autophagy-associated protein 1) [Cleaved into: N-terminal form; C-terminal 80 kDa form (80-kDa SOGA fragment)]	SOGA1 C20orf117 KIAA0889 SOGA	Homo sapiens (Human)	1423
+SARS-CoV2-nsp13	O94986	0.886	CE152_HUMAN	reviewed	Centrosomal protein of 152 kDa (Cep152)	CEP152 KIAA0912	Homo sapiens (Human)	1710
+SARS-CoV2-nsp13	O95239	0.88	KIF4A_HUMAN	reviewed	Chromosome-associated kinesin KIF4A (Chromokinesin-A)	KIF4A KIF4	Homo sapiens (Human)	1232
+SARS-CoV2-nsp13	O95347	0.863	SMC2_HUMAN	reviewed	Structural maintenance of chromosomes protein 2 (SMC protein 2) (SMC-2) (Chromosome-associated protein E) (hCAP-E) (XCAP-E homolog)	SMC2 CAPE SMC2L1 PRO0324	Homo sapiens (Human)	1197
+SARS-CoV2-nsp7	O95716	0.772	RAB3D_HUMAN	reviewed	Ras-related protein Rab-3D	RAB3D GOV RAB16	Homo sapiens (Human)	219
+SARS-CoV2-nsp13	O95995	0.872	DRC4_HUMAN	reviewed	Dynein regulatory complex subunit 4 (Growth arrest-specific protein 11) (GAS-11) (Growth arrest-specific protein 8) (GAS-8)	GAS8 DRC4 GAS11	Homo sapiens (Human)	478
+SARS-CoV2-nsp13	P02549	0.925	SPTA1_HUMAN	reviewed	Spectrin alpha chain, erythrocytic 1 (Erythroid alpha-spectrin)	SPTA1 SPTA	Homo sapiens (Human)	2419
+SARS-CoV2-nsp12	P06280	0.745	AGAL_HUMAN	reviewed	Alpha-galactosidase A (EC 3.2.1.22) (Alpha-D-galactosidase A) (Alpha-D-galactoside galactohydrolase) (Melibiase) (Agalsidase)	GLA	Homo sapiens (Human)	429
+SARS-CoV2-nsp8	P06280	0.703	AGAL_HUMAN	reviewed	Alpha-galactosidase A (EC 3.2.1.22) (Alpha-D-galactosidase A) (Alpha-D-galactoside galactohydrolase) (Melibiase) (Agalsidase)	GLA	Homo sapiens (Human)	429
+SARS-CoV2-orf8	P06280	0.863	AGAL_HUMAN	reviewed	Alpha-galactosidase A (EC 3.2.1.22) (Alpha-D-galactosidase A) (Alpha-D-galactoside galactohydrolase) (Melibiase) (Agalsidase)	GLA	Homo sapiens (Human)	429
+SARS-CoV2-M	P09601	0.748	HMOX1_HUMAN	reviewed	Heme oxygenase 1 (HO-1) (EC 1.14.14.18)	HMOX1 HO HO1	Homo sapiens (Human)	288
+SARS-CoV2-M	P09884	0.772	DPOLA_HUMAN	reviewed	DNA polymerase alpha catalytic subunit (EC 2.7.7.7) (DNA polymerase alpha catalytic subunit p180)	POLA1 POLA	Homo sapiens (Human)	1462
+SARS-CoV2-nsp13	P0CG33	0.823	GOG6D_HUMAN	reviewed	Golgin subfamily A member 6D	GOLGA6D	Homo sapiens (Human)	693
+SARS-CoV2-nsp13	P11055	0.86	MYH3_HUMAN	reviewed	Myosin-3 (Muscle embryonic myosin heavy chain) (Myosin heavy chain 3) (Myosin heavy chain, fast skeletal muscle, embryonic) (SMHCE)	MYH3	Homo sapiens (Human)	1940
+SARS-CoV2-nsp7	P11234	0.783	RALB_HUMAN	reviewed	Ras-related protein Ral-B	RALB	Homo sapiens (Human)	206
+SARS-CoV2-nsp13	P11277	0.939	SPTB1_HUMAN	reviewed	Spectrin beta chain, erythrocytic (Beta-I spectrin)	SPTB SPTB1	Homo sapiens (Human)	2137
+SARS-CoV2-nsp13	P11532	0.902	DMD_HUMAN	reviewed	Dystrophin	DMD	Homo sapiens (Human)	3685
+SARS-CoV2-nsp12	P11940	0.744	PABP1_HUMAN	reviewed	Polyadenylate-binding protein 1 (PABP-1) (Poly(A)-binding protein 1)	PABPC1 PAB1 PABP1 PABPC2	Homo sapiens (Human)	636
+SARS-CoV2-M	P12268	0.752	IMDH2_HUMAN	reviewed	Inosine-5'-monophosphate dehydrogenase 2 (IMP dehydrogenase 2) (IMPD 2) (IMPDH 2) (EC 1.1.1.205) (IMPDH-II)	IMPDH2 IMPD2	Homo sapiens (Human)	514
+SARS-CoV2-nsp8	P12268	0.72	IMDH2_HUMAN	reviewed	Inosine-5'-monophosphate dehydrogenase 2 (IMP dehydrogenase 2) (IMPD 2) (IMPDH 2) (EC 1.1.1.205) (IMPDH-II)	IMPDH2 IMPD2	Homo sapiens (Human)	514
+SARS-CoV2-nsp12	P12270	0.72	TPR_HUMAN	reviewed	Nucleoprotein TPR (Megator) (NPC-associated intranuclear protein) (Translocated promoter region protein)	TPR	Homo sapiens (Human)	2363
+SARS-CoV2-nsp13	P12270	0.971	TPR_HUMAN	reviewed	Nucleoprotein TPR (Megator) (NPC-associated intranuclear protein) (Translocated promoter region protein)	TPR	Homo sapiens (Human)	2363
+SARS-CoV2-nsp13	P12814	0.808	ACTN1_HUMAN	reviewed	Alpha-actinin-1 (Alpha-actinin cytoskeletal isoform) (F-actin cross-linking protein) (Non-muscle alpha-actinin-1)	ACTN1	Homo sapiens (Human)	892
+SARS-CoV2-nsp13	P12882	0.9	MYH1_HUMAN	reviewed	Myosin-1 (Myosin heavy chain 1) (Myosin heavy chain 2x) (MyHC-2x) (Myosin heavy chain IIx/d) (MyHC-IIx/d) (Myosin heavy chain, skeletal muscle, adult 1)	MYH1	Homo sapiens (Human)	1939
+SARS-CoV2-nsp13	P12883	0.912	MYH7_HUMAN	reviewed	Myosin-7 (Myosin heavy chain 7) (Myosin heavy chain slow isoform) (MyHC-slow) (Myosin heavy chain, cardiac muscle beta isoform) (MyHC-beta)	MYH7 MYHCB	Homo sapiens (Human)	1935
+SARS-CoV2-nsp13	P13521	0.89	SCG2_HUMAN	reviewed	Secretogranin-2 (Chromogranin-C) (Secretogranin II) (SgII) [Cleaved into: Secretoneurin (SN); Manserin]	SCG2 CHGC	Homo sapiens (Human)	617
+SARS-CoV2-nsp13	P13533	0.902	MYH6_HUMAN	reviewed	Myosin-6 (Myosin heavy chain 6) (Myosin heavy chain, cardiac muscle alpha isoform) (MyHC-alpha)	MYH6 MYHCA	Homo sapiens (Human)	1939
+SARS-CoV2-nsp13	P13535	0.892	MYH8_HUMAN	reviewed	Myosin-8 (Myosin heavy chain 8) (Myosin heavy chain, skeletal muscle, perinatal) (MyHC-perinatal)	MYH8	Homo sapiens (Human)	1937
+SARS-CoV2-nsp13	P14136	0.879	GFAP_HUMAN	reviewed	Glial fibrillary acidic protein (GFAP)	GFAP	Homo sapiens (Human)	432
+SARS-CoV2-nsp8	P14136	0.809	GFAP_HUMAN	reviewed	Glial fibrillary acidic protein (GFAP)	GFAP	Homo sapiens (Human)	432
+SARS-CoV2-M	P14735	0.782	IDE_HUMAN	reviewed	Insulin-degrading enzyme (EC 3.4.24.56) (Abeta-degrading protease) (Insulin protease) (Insulinase) (Insulysin)	IDE	Homo sapiens (Human)	1019
+SARS-CoV2-orf9c	P14735	0.761	IDE_HUMAN	reviewed	Insulin-degrading enzyme (EC 3.4.24.56) (Abeta-degrading protease) (Insulin protease) (Insulinase) (Insulysin)	IDE	Homo sapiens (Human)	1019
+SARS-CoV2-nsp13	P15311	0.847	EZRI_HUMAN	reviewed	Ezrin (Cytovillin) (Villin-2) (p81)	EZR VIL2	Homo sapiens (Human)	586
+SARS-CoV2-nsp13	P15924	0.904	DESP_HUMAN	reviewed	Desmoplakin (DP) (250/210 kDa paraneoplastic pemphigus antigen)	DSP	Homo sapiens (Human)	2871
+SARS-CoV2-M	P16435	0.753	NCPR_HUMAN	reviewed	NADPH--cytochrome P450 reductase (CPR) (P450R) (EC 1.6.2.4)	POR CYPOR	Homo sapiens (Human)	677
+SARS-CoV2-nsp7	P20338	0.78	RAB4A_HUMAN	reviewed	Ras-related protein Rab-4A	RAB4A RAB4	Homo sapiens (Human)	218
+SARS-CoV2-nsp7	P20339	0.903	RAB5A_HUMAN	reviewed	Ras-related protein Rab-5A (EC 3.6.5.2)	RAB5A RAB5	Homo sapiens (Human)	215
+SARS-CoV2-orf9c	P23975	0.733	SC6A2_HUMAN	reviewed	Sodium-dependent noradrenaline transporter (Norepinephrine transporter) (NET) (Solute carrier family 6 member 2)	SLC6A2 NAT1 NET1 SLC6A5	Homo sapiens (Human)	617
+SARS-CoV2-nsp13	P26038	0.897	MOES_HUMAN	reviewed	Moesin (Membrane-organizing extension spike protein)	MSN	Homo sapiens (Human)	577
+SARS-CoV2-orf8	P27448	0.806	MARK3_HUMAN	reviewed	MAP/microtubule affinity-regulating kinase 3 (EC 2.7.11.1) (C-TAK1) (cTAK1) (Cdc25C-associated protein kinase 1) (ELKL motif kinase 2) (EMK-2) (Protein kinase STK10) (Ser/Thr protein kinase PAR-1) (Par-1a) (Serine/threonine-protein kinase p78)	MARK3 CTAK1 EMK2	Homo sapiens (Human)	753
+SARS-CoV2-nsp13	P30622	0.885	CLIP1_HUMAN	reviewed	CAP-Gly domain-containing linker protein 1 (Cytoplasmic linker protein 1) (Cytoplasmic linker protein 170 alpha-2) (CLIP-170) (Reed-Sternberg intermediate filament-associated protein) (Restin)	CLIP1 CYLN1 RSN	Homo sapiens (Human)	1438
+SARS-CoV2-nsp13	P33176	0.874	KINH_HUMAN	reviewed	Kinesin-1 heavy chain (Conventional kinesin heavy chain) (Ubiquitous kinesin heavy chain) (UKHC)	KIF5B KNS KNS1	Homo sapiens (Human)	963
+SARS-CoV2-nsp13	P35579	0.951	MYH9_HUMAN	reviewed	Myosin-9 (Cellular myosin heavy chain, type A) (Myosin heavy chain 9) (Myosin heavy chain, non-muscle IIa) (Non-muscle myosin heavy chain A) (NMMHC-A) (Non-muscle myosin heavy chain IIa) (NMMHC II-a) (NMMHC-IIA)	MYH9	Homo sapiens (Human)	1960
+SARS-CoV2-nsp13	P35580	0.907	MYH10_HUMAN	reviewed	Myosin-10 (Cellular myosin heavy chain, type B) (Myosin heavy chain 10) (Myosin heavy chain, non-muscle IIb) (Non-muscle myosin heavy chain B) (NMMHC-B) (Non-muscle myosin heavy chain IIb) (NMMHC II-b) (NMMHC-IIB)	MYH10	Homo sapiens (Human)	1976
+SARS-CoV2-nsp13	P35749	0.938	MYH11_HUMAN	reviewed	Myosin-11 (Myosin heavy chain 11) (Myosin heavy chain, smooth muscle isoform) (SMMHC)	MYH11 KIAA0866	Homo sapiens (Human)	1972
+SARS-CoV2-nsp8	P35749	0.71	MYH11_HUMAN	reviewed	Myosin-11 (Myosin heavy chain 11) (Myosin heavy chain, smooth muscle isoform) (SMMHC)	MYH11 KIAA0866	Homo sapiens (Human)	1972
+SARS-CoV2-nsp13	P35900	0.849	K1C20_HUMAN	reviewed	Keratin, type I cytoskeletal 20 (Cytokeratin-20) (CK-20) (Keratin-20) (K20) (Protein IT)	KRT20	Homo sapiens (Human)	424
+SARS-CoV2-orf9c	P38435	0.81	VKGC_HUMAN	reviewed	Vitamin K-dependent gamma-carboxylase (EC 4.1.1.90) (Gamma-glutamyl carboxylase) (Peptidyl-glutamate 4-carboxylase) (Vitamin K gamma glutamyl carboxylase)	GGCX GC	Homo sapiens (Human)	758
+SARS-CoV2-nsp13	P40222	0.893	TXLNA_HUMAN	reviewed	Alpha-taxilin	TXLNA TXLN	Homo sapiens (Human)	546
+SARS-CoV2-nsp13	P46939	0.896	UTRO_HUMAN	reviewed	Utrophin (Dystrophin-related protein 1) (DRP-1)	UTRN DMDL DRP1	Homo sapiens (Human)	3433
+SARS-CoV2-nsp13	P46940	0.823	IQGA1_HUMAN	reviewed	Ras GTPase-activating-like protein IQGAP1 (p195)	IQGAP1 KIAA0051	Homo sapiens (Human)	1657
+SARS-CoV2-nsp12	P49642	0.705	PRI1_HUMAN	reviewed	DNA primase small subunit (EC 2.7.7.-) (DNA primase 49 kDa subunit) (p49)	PRIM1	Homo sapiens (Human)	420
+SARS-CoV2-nsp13	P49642	0.809	PRI1_HUMAN	reviewed	DNA primase small subunit (EC 2.7.7.-) (DNA primase 49 kDa subunit) (p49)	PRIM1	Homo sapiens (Human)	420
+SARS-CoV2-nsp8	P49642	0.733	PRI1_HUMAN	reviewed	DNA primase small subunit (EC 2.7.7.-) (DNA primase 49 kDa subunit) (p49)	PRIM1	Homo sapiens (Human)	420
+SARS-CoV2-orf8	P49642	0.808	PRI1_HUMAN	reviewed	DNA primase small subunit (EC 2.7.7.-) (DNA primase 49 kDa subunit) (p49)	PRIM1	Homo sapiens (Human)	420
+SARS-CoV2-nsp7	P51153	0.772	RAB13_HUMAN	reviewed	Ras-related protein Rab-13 (Cell growth-inhibiting gene 4 protein)	RAB13 GIG4	Homo sapiens (Human)	203
+SARS-CoV2-M	P52948	0.718	NUP98_HUMAN	reviewed	Nuclear pore complex protein Nup98-Nup96 (EC 3.4.21.-) [Cleaved into: Nuclear pore complex protein Nup98 (98 kDa nucleoporin) (Nucleoporin Nup98) (Nup98); Nuclear pore complex protein Nup96 (96 kDa nucleoporin) (Nucleoporin Nup96) (Nup96)]	NUP98 ADAR2	Homo sapiens (Human)	1817
+SARS-CoV2-orf8	P52948	0.812	NUP98_HUMAN	reviewed	Nuclear pore complex protein Nup98-Nup96 (EC 3.4.21.-) [Cleaved into: Nuclear pore complex protein Nup98 (98 kDa nucleoporin) (Nucleoporin Nup98) (Nup98); Nuclear pore complex protein Nup96 (96 kDa nucleoporin) (Nucleoporin Nup96) (Nup96)]	NUP98 ADAR2	Homo sapiens (Human)	1817
+SARS-CoV2-nsp7	P55789	0.787	ALR_HUMAN	reviewed	FAD-linked sulfhydryl oxidase ALR (EC 1.8.3.2) (Augmenter of liver regeneration) (hERV1) (Hepatopoietin)	GFER ALR HERV1 HPO	Homo sapiens (Human)	205
+SARS-CoV2-nsp8	P55789	0.732	ALR_HUMAN	reviewed	FAD-linked sulfhydryl oxidase ALR (EC 1.8.3.2) (Augmenter of liver regeneration) (hERV1) (Hepatopoietin)	GFER ALR HERV1 HPO	Homo sapiens (Human)	205
+SARS-CoV2-orf8	P55789	0.848	ALR_HUMAN	reviewed	FAD-linked sulfhydryl oxidase ALR (EC 1.8.3.2) (Augmenter of liver regeneration) (hERV1) (Hepatopoietin)	GFER ALR HERV1 HPO	Homo sapiens (Human)	205
+SARS-CoV2-orf9c	P55789	0.762	ALR_HUMAN	reviewed	FAD-linked sulfhydryl oxidase ALR (EC 1.8.3.2) (Augmenter of liver regeneration) (hERV1) (Hepatopoietin)	GFER ALR HERV1 HPO	Homo sapiens (Human)	205
+SARS-CoV2-M	P61006	0.758	RAB8A_HUMAN	reviewed	Ras-related protein Rab-8A (Oncogene c-mel)	RAB8A MEL RAB8	Homo sapiens (Human)	207
+SARS-CoV2-nsp7	P61018	0.819	RAB4B_HUMAN	reviewed	Ras-related protein Rab-4B	RAB4B PP1596	Homo sapiens (Human)	213
+SARS-CoV2-M	P61026	0.751	RAB10_HUMAN	reviewed	Ras-related protein Rab-10	RAB10	Homo sapiens (Human)	200
+SARS-CoV2-orf8	P61026	0.797	RAB10_HUMAN	reviewed	Ras-related protein Rab-10	RAB10	Homo sapiens (Human)	200
+SARS-CoV2-orf9c	P61026	0.738	RAB10_HUMAN	reviewed	Ras-related protein Rab-10	RAB10	Homo sapiens (Human)	200
+SARS-CoV2-M	P61106	0.745	RAB14_HUMAN	reviewed	Ras-related protein Rab-14	RAB14	Homo sapiens (Human)	215
+SARS-CoV2-orf8	P61106	0.831	RAB14_HUMAN	reviewed	Ras-related protein Rab-14	RAB14	Homo sapiens (Human)	215
+SARS-CoV2-orf8	P61970	0.791	NTF2_HUMAN	reviewed	Nuclear transport factor 2 (NTF-2) (Placental protein 15) (PP15)	NUTF2 NTF2	Homo sapiens (Human)	127
+SARS-CoV2-nsp7	P62877	0.749	RBX1_HUMAN	reviewed	E3 ubiquitin-protein ligase RBX1 (EC 2.3.2.27) (EC 2.3.2.32) (E3 ubiquitin-protein transferase RBX1) (Protein ZYP) (RING finger protein 75) (RING-box protein 1) (Rbx1) (Regulator of cullins 1) (ROC1) [Cleaved into: E3 ubiquitin-protein ligase RBX1, N-terminally processed (E3 ubiquitin-protein transferase RBX1, N-terminally processed)]	RBX1 RNF75 ROC1	Homo sapiens (Human)	108
+SARS-CoV2-nsp13	P82094	0.845	TMF1_HUMAN	reviewed	TATA element modulatory factor (TMF) (Androgen receptor coactivator 160 kDa protein) (Androgen receptor-associated protein of 160 kDa)	TMF1 ARA160	Homo sapiens (Human)	1093
+SARS-CoV2-nsp13	Q00341	0.808	VIGLN_HUMAN	reviewed	Vigilin (High density lipoprotein-binding protein) (HDL-binding protein)	HDLBP HBP VGL	Homo sapiens (Human)	1268
+SARS-CoV2-orf9c	Q00765	0.814	REEP5_HUMAN	reviewed	Receptor expression-enhancing protein 5 (Polyposis locus protein 1) (Protein TB2)	REEP5 C5orf18 DP1 TB2	Homo sapiens (Human)	189
+SARS-CoV2-nsp13	Q01082	0.938	SPTB2_HUMAN	reviewed	Spectrin beta chain, non-erythrocytic 1 (Beta-II spectrin) (Fodrin beta chain) (Spectrin, non-erythroid beta chain 1)	SPTBN1 SPTB2	Homo sapiens (Human)	2364
+SARS-CoV2-nsp13	Q02224	0.933	CENPE_HUMAN	reviewed	Centromere-associated protein E (Centromere protein E) (CENP-E) (Kinesin-7) (Kinesin-related protein CENPE)	CENPE	Homo sapiens (Human)	2701
+SARS-CoV2-orf8	Q02809	0.792	PLOD1_HUMAN	reviewed	Procollagen-lysine,2-oxoglutarate 5-dioxygenase 1 (EC 1.14.11.4) (Lysyl hydroxylase 1) (LH1)	PLOD1 LLH PLOD	Homo sapiens (Human)	727
+SARS-CoV2-nsp13	Q03001	0.926	DYST_HUMAN	reviewed	Dystonin (230 kDa bullous pemphigoid antigen) (230/240 kDa bullous pemphigoid antigen) (Bullous pemphigoid antigen 1) (BPA) (Bullous pemphigoid antigen) (Dystonia musculorum protein) (Hemidesmosomal plaque protein)	DST BP230 BP240 BPAG1 DMH DT KIAA0728	Homo sapiens (Human)	7570
+SARS-CoV2-nsp8	Q08378	0.76	GOGA3_HUMAN	reviewed	Golgin subfamily A member 3 (Golgi complex-associated protein of 170 kDa) (GCP170) (Golgin-160)	GOLGA3	Homo sapiens (Human)	1498
+SARS-CoV2-nsp12	Q08379	0.751	GOGA2_HUMAN	reviewed	Golgin subfamily A member 2 (130 kDa cis-Golgi matrix protein) (GM130) (GM130 autoantigen) (Golgin-95)	GOLGA2	Homo sapiens (Human)	1002
+SARS-CoV2-nsp8	Q08379	0.717	GOGA2_HUMAN	reviewed	Golgin subfamily A member 2 (130 kDa cis-Golgi matrix protein) (GM130) (GM130 autoantigen) (Golgin-95)	GOLGA2	Homo sapiens (Human)	1002
+SARS-CoV2-nsp13	Q0VF96	0.944	CGNL1_HUMAN	reviewed	Cingulin-like protein 1 (Junction-associated coiled-coil protein) (Paracingulin)	CGNL1 JACOP KIAA1749	Homo sapiens (Human)	1302
+SARS-CoV2-nsp13	Q12840	0.893	KIF5A_HUMAN	reviewed	Kinesin heavy chain isoform 5A (Kinesin heavy chain neuron-specific 1) (Neuronal kinesin heavy chain) (NKHC)	KIF5A NKHC1	Homo sapiens (Human)	1032
+SARS-CoV2-nsp13	Q12934	0.808	BFSP1_HUMAN	reviewed	Filensin (Beaded filament structural protein 1) (Lens fiber cell beaded-filament structural protein CP 115) (CP115) (Lens intermediate filament-like heavy) (LIFL-H) [Cleaved into: Filensin C-terminal fragment; Filensin N-terminal fragment]	BFSP1	Homo sapiens (Human)	665
+SARS-CoV2-nsp13	Q13136	0.892	LIPA1_HUMAN	reviewed	Liprin-alpha-1 (LAR-interacting protein 1) (LIP-1) (Protein tyrosine phosphatase receptor type f polypeptide-interacting protein alpha-1) (PTPRF-interacting protein alpha-1)	PPFIA1 LIP1	Homo sapiens (Human)	1202
+SARS-CoV2-nsp13	Q13439	0.966	GOGA4_HUMAN	reviewed	Golgin subfamily A member 4 (256 kDa golgin) (Golgin-245) (Protein 72.1) (Trans-Golgi p230)	GOLGA4	Homo sapiens (Human)	2230
+SARS-CoV2-nsp13	Q13464	0.901	ROCK1_HUMAN	reviewed	Rho-associated protein kinase 1 (EC 2.7.11.1) (Renal carcinoma antigen NY-REN-35) (Rho-associated, coiled-coil-containing protein kinase 1) (Rho-associated, coiled-coil-containing protein kinase I) (ROCK-I) (p160 ROCK-1) (p160ROCK)	ROCK1	Homo sapiens (Human)	1354
+SARS-CoV2-nsp7	Q13636	0.778	RAB31_HUMAN	reviewed	Ras-related protein Rab-31 (Ras-related protein Rab-22B)	RAB31 RAB22B	Homo sapiens (Human)	194
+SARS-CoV2-orf8	Q13724	0.795	MOGS_HUMAN	reviewed	Mannosyl-oligosaccharide glucosidase (EC 3.2.1.106) (Processing A-glucosidase I)	MOGS GCS1	Homo sapiens (Human)	837
+SARS-CoV2-orf9c	Q13724	0.796	MOGS_HUMAN	reviewed	Mannosyl-oligosaccharide glucosidase (EC 3.2.1.106) (Processing A-glucosidase I)	MOGS GCS1	Homo sapiens (Human)	837
+SARS-CoV2-nsp13	Q13813	0.93	SPTN1_HUMAN	reviewed	Spectrin alpha chain, non-erythrocytic 1 (Alpha-II spectrin) (Fodrin alpha chain) (Spectrin, non-erythroid alpha subunit)	SPTAN1 NEAS SPTA2	Homo sapiens (Human)	2472
+SARS-CoV2-nsp13	Q13948	0.853	CASP_HUMAN	reviewed	Protein CASP	CUX1 CUTL1	Homo sapiens (Human)	678
+SARS-CoV2-nsp13	Q14203	0.81	DCTN1_HUMAN	reviewed	Dynactin subunit 1 (150 kDa dynein-associated polypeptide) (DAP-150) (DP-150) (p135) (p150-glued)	DCTN1	Homo sapiens (Human)	1278
+SARS-CoV2-nsp13	Q14683	0.897	SMC1A_HUMAN	reviewed	Structural maintenance of chromosomes protein 1A (SMC protein 1A) (SMC-1-alpha) (SMC-1A) (Sb1.8)	SMC1A DXS423E KIAA0178 SB1.8 SMC1 SMC1L1	Homo sapiens (Human)	1233
+SARS-CoV2-nsp13	Q14980	0.958	NUMA1_HUMAN	reviewed	Nuclear mitotic apparatus protein 1 (Nuclear matrix protein-22) (NMP-22) (Nuclear mitotic apparatus protein) (NuMA protein) (SP-H antigen)	NUMA1 NMP22 NUMA	Homo sapiens (Human)	2115
+SARS-CoV2-nsp13	Q14BN4	0.831	SLMAP_HUMAN	reviewed	Sarcolemmal membrane-associated protein (Sarcolemmal-associated protein)	SLMAP KIAA1601 SLAP UNQ1847/PRO3577	Homo sapiens (Human)	828
+SARS-CoV2-nsp13	Q15025	0.831	TNIP1_HUMAN	reviewed	TNFAIP3-interacting protein 1 (A20-binding inhibitor of NF-kappa-B activation 1) (ABIN-1) (HIV-1 Nef-interacting protein) (Nef-associated factor 1) (Naf1) (Nip40-1) (Virion-associated nuclear shuttling protein) (VAN) (hVAN)	TNIP1 KIAA0113 NAF1	Homo sapiens (Human)	636
+SARS-CoV2-nsp13	Q15075	0.93	EEA1_HUMAN	reviewed	Early endosome antigen 1 (Endosome-associated protein p162) (Zinc finger FYVE domain-containing protein 2)	EEA1 ZFYVE2	Homo sapiens (Human)	1411
+SARS-CoV2-nsp13	Q15149	0.901	PLEC_HUMAN	reviewed	Plectin (PCN) (PLTN) (Hemidesmosomal protein 1) (HD1) (Plectin-1)	PLEC PLEC1	Homo sapiens (Human)	4684
+SARS-CoV2-nsp13	Q15276	0.935	RABE1_HUMAN	reviewed	Rab GTPase-binding effector protein 1 (Rabaptin-4) (Rabaptin-5) (Rabaptin-5alpha) (Renal carcinoma antigen NY-REN-17)	RABEP1 RAB5EP RABPT5 RABPT5A	Homo sapiens (Human)	862
+SARS-CoV2-nsp7	Q15286	0.806	RAB35_HUMAN	reviewed	Ras-related protein Rab-35 (GTP-binding protein RAY) (Ras-related protein Rab-1C)	RAB35 RAB1C RAY	Homo sapiens (Human)	201
+SARS-CoV2-nsp13	Q15424	0.858	SAFB1_HUMAN	reviewed	Scaffold attachment factor B1 (SAF-B) (SAF-B1) (HSP27 estrogen response element-TATA box-binding protein) (HSP27 ERE-TATA-binding protein)	SAFB HAP HET SAFB1	Homo sapiens (Human)	915
+SARS-CoV2-nsp13	Q15431	0.817	SYCP1_HUMAN	reviewed	Synaptonemal complex protein 1 (SCP-1) (Cancer/testis antigen 8) (CT8)	SYCP1 SCP1	Homo sapiens (Human)	976
+SARS-CoV2-nsp13	Q15643	0.976	TRIPB_HUMAN	reviewed	Thyroid receptor-interacting protein 11 (TR-interacting protein 11) (TRIP-11) (Clonal evolution-related gene on chromosome 14 protein) (Golgi-associated microtubule-binding protein 210) (GMAP-210) (Trip230)	TRIP11 CEV14	Homo sapiens (Human)	1979
+SARS-CoV2-orf9c	Q15904	0.727	VAS1_HUMAN	reviewed	V-type proton ATPase subunit S1 (V-ATPase subunit S1) (Protein XAP-3) (V-ATPase Ac45 subunit) (V-ATPase S1 accessory protein) (Vacuolar proton pump subunit S1)	ATP6AP1 ATP6IP1 ATP6S1 VATPS1 XAP3	Homo sapiens (Human)	470
+SARS-CoV2-M	Q2TAA5	0.761	ALG11_HUMAN	reviewed	GDP-Man:Man(3)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase (EC 2.4.1.131) (Asparagine-linked glycosylation protein 11 homolog) (Glycolipid 2-alpha-mannosyltransferase)	ALG11 GT8	Homo sapiens (Human)	492
+SARS-CoV2-nsp7	Q2TAA5	0.764	ALG11_HUMAN	reviewed	GDP-Man:Man(3)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase (EC 2.4.1.131) (Asparagine-linked glycosylation protein 11 homolog) (Glycolipid 2-alpha-mannosyltransferase)	ALG11 GT8	Homo sapiens (Human)	492
+SARS-CoV2-orf8	Q2TAA5	0.82	ALG11_HUMAN	reviewed	GDP-Man:Man(3)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase (EC 2.4.1.131) (Asparagine-linked glycosylation protein 11 homolog) (Glycolipid 2-alpha-mannosyltransferase)	ALG11 GT8	Homo sapiens (Human)	492
+SARS-CoV2-orf9c	Q2TAA5	0.826	ALG11_HUMAN	reviewed	GDP-Man:Man(3)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase (EC 2.4.1.131) (Asparagine-linked glycosylation protein 11 homolog) (Glycolipid 2-alpha-mannosyltransferase)	ALG11 GT8	Homo sapiens (Human)	492
+SARS-CoV2-nsp13	Q2VIQ3	0.891	KIF4B_HUMAN	reviewed	Chromosome-associated kinesin KIF4B (Chromokinesin-B)	KIF4B	Homo sapiens (Human)	1234
+SARS-CoV2-nsp13	Q3V6T2	0.919	GRDN_HUMAN	reviewed	Girdin (Akt phosphorylation enhancer) (APE) (Coiled-coil domain-containing protein 88A) (G alpha-interacting vesicle-associated protein) (GIV) (Girders of actin filament) (Hook-related protein 1) (HkRP1)	CCDC88A APE GRDN KIAA1212	Homo sapiens (Human)	1871
+SARS-CoV2-nsp12	Q4G0X9	0.722	CCD40_HUMAN	reviewed	Coiled-coil domain-containing protein 40	CCDC40 KIAA1640	Homo sapiens (Human)	1142
+SARS-CoV2-nsp13	Q4G0X9	0.96	CCD40_HUMAN	reviewed	Coiled-coil domain-containing protein 40	CCDC40 KIAA1640	Homo sapiens (Human)	1142
+SARS-CoV2-nsp13	Q4L180	0.826	FIL1L_HUMAN	reviewed	Filamin A-interacting protein 1-like (130 kDa GPBP-interacting protein) (90 kDa GPBP-interacting protein) (Protein down-regulated in ovarian cancer 1) (DOC-1)	FILIP1L COL4A3BPIP DOC1 GIP90	Homo sapiens (Human)	1135
+SARS-CoV2-nsp12	Q4V328	0.726	GRAP1_HUMAN	reviewed	GRIP1-associated protein 1 (GRASP-1) [Cleaved into: GRASP-1 C-terminal chain (30kDa C-terminus form)]	GRIPAP1 KIAA1167	Homo sapiens (Human)	841
+SARS-CoV2-nsp13	Q567U6	0.842	CCD93_HUMAN	reviewed	Coiled-coil domain-containing protein 93	CCDC93	Homo sapiens (Human)	631
+SARS-CoV2-nsp13	Q5BJF6	0.871	ODFP2_HUMAN	reviewed	Outer dense fiber protein 2 (Cenexin) (Outer dense fiber of sperm tails protein 2)	ODF2	Homo sapiens (Human)	829
+SARS-CoV2-nsp13	Q5CZ79	0.88	AN20B_HUMAN	reviewed	Ankyrin repeat domain-containing protein 20B (Ankyrin repeat domain-containing protein 20A pseudogene)	ANKRD20A8P ANKRD20B	Homo sapiens (Human)	823
+SARS-CoV2-nsp13	Q5EBL4	0.834	RIPL1_HUMAN	reviewed	RILP-like protein 1 (Rab-interacting lysosomal-like protein 1)	RILPL1 RLP1	Homo sapiens (Human)	403
+SARS-CoV2-nsp13	Q5JRA6	0.818	TGO1_HUMAN	reviewed	Transport and Golgi organization protein 1 homolog (TANGO1) (C219-reactive peptide) (D320) (Melanoma inhibitory activity protein 3)	MIA3 KIAA0268 TANGO UNQ6077/PRO20088	Homo sapiens (Human)	1907
+SARS-CoV2-nsp13	Q5JU67	0.82	CF157_HUMAN	reviewed	Cilia- and flagella-associated protein 157	CFAP157 C9orf117	Homo sapiens (Human)	520
+SARS-CoV2-nsp13	Q5M775	0.849	CYTSB_HUMAN	reviewed	Cytospin-B (Nuclear structure protein 5) (NSP5) (Sperm antigen HCMOGT-1) (Sperm antigen with calponin homology and coiled-coil domains 1)	SPECC1 CYTSB NSP5	Homo sapiens (Human)	1068
+SARS-CoV2-nsp13	Q5M9N0	0.917	CD158_HUMAN	reviewed	Coiled-coil domain-containing protein 158	CCDC158	Homo sapiens (Human)	1113
+SARS-CoV2-nsp13	Q5QJ38	0.836	TCHL1_HUMAN	reviewed	Trichohyalin-like protein 1 (Basalin) (Protein S100-A17) (S100 calcium-binding protein A17)	TCHHL1 S100A17 THHL1	Homo sapiens (Human)	904
+SARS-CoV2-nsp13	Q5SQ80	0.825	A20A2_HUMAN	reviewed	Ankyrin repeat domain-containing protein 20A2	ANKRD20A2	Homo sapiens (Human)	823
+SARS-CoV2-nsp12	Q5T1M5	0.778	FKB15_HUMAN	reviewed	FK506-binding protein 15 (FKBP-15) (133 kDa FK506-binding protein) (133 kDa FKBP) (FKBP-133) (WASP- and FKBP-like protein) (WAFL)	FKBP15 KIAA0674	Homo sapiens (Human)	1219
+SARS-CoV2-nsp13	Q5T1M5	0.892	FKB15_HUMAN	reviewed	FK506-binding protein 15 (FKBP-15) (133 kDa FK506-binding protein) (133 kDa FKBP) (FKBP-133) (WASP- and FKBP-like protein) (WAFL)	FKBP15 KIAA0674	Homo sapiens (Human)	1219
+SARS-CoV2-nsp13	Q5T655	0.957	CFA58_HUMAN	reviewed	Cilia- and flagella-associated protein 58 (Coiled-coil domain-containing protein 147)	CFAP58 C10orf80 CCDC147	Homo sapiens (Human)	872
+SARS-CoV2-nsp13	Q5T9S5	0.921	CCD18_HUMAN	reviewed	Coiled-coil domain-containing protein 18 (Sarcoma antigen NY-SAR-24)	CCDC18	Homo sapiens (Human)	1454
+SARS-CoV2-nsp13	Q5TB80	0.899	CE162_HUMAN	reviewed	Centrosomal protein of 162 kDa (Cep162) (Protein QN1 homolog)	CEP162 C6orf84 KIAA1009 QN1	Homo sapiens (Human)	1403
+SARS-CoV2-nsp13	Q5TYW2	0.848	A20A1_HUMAN	reviewed	Ankyrin repeat domain-containing protein 20A1	ANKRD20A1 ANKRD20A	Homo sapiens (Human)	823
+SARS-CoV2-nsp13	Q5TZA2	0.95	CROCC_HUMAN	reviewed	Rootletin (Ciliary rootlet coiled-coil protein)	CROCC KIAA0445	Homo sapiens (Human)	2017
+SARS-CoV2-nsp13	Q5VUR7	0.827	A20A3_HUMAN	reviewed	Ankyrin repeat domain-containing protein 20A3	ANKRD20A3	Homo sapiens (Human)	823
+SARS-CoV2-nsp13	Q5VVM6	0.892	CCD30_HUMAN	reviewed	Coiled-coil domain-containing protein 30 (Prefoldin subunit 6-like protein)	CCDC30 PFDN6L	Homo sapiens (Human)	783
+SARS-CoV2-nsp13	Q5VZ66	0.871	JKIP3_HUMAN	reviewed	Janus kinase and microtubule-interacting protein 3 (Neuroendocrine long coiled-coil protein 2)	JAKMIP3 C10orf14 C10orf39 JAMIP3 NECC2	Homo sapiens (Human)	844
+SARS-CoV2-nsp13	Q68CZ1	0.895	FTM_HUMAN	reviewed	Protein fantom (Nephrocystin-8) (RPGR-interacting protein 1-like protein) (RPGRIP1-like protein)	RPGRIP1L FTM KIAA1005 NPHP8	Homo sapiens (Human)	1315
+SARS-CoV2-nsp13	Q6P4E1	0.828	CASC4_HUMAN	reviewed	Protein CASC4 (Cancer susceptibility candidate gene 4 protein)	CASC4 UNQ2573/PRO6308	Homo sapiens (Human)	436
+SARS-CoV2-nsp13	Q6TFL3	0.892	CC171_HUMAN	reviewed	Coiled-coil domain-containing protein 171	CCDC171 C9orf93	Homo sapiens (Human)	1326
+SARS-CoV2-nsp13	Q6UVJ0	0.829	SAS6_HUMAN	reviewed	Spindle assembly abnormal protein 6 homolog (HsSAS-6)	SASS6 SAS6	Homo sapiens (Human)	657
+SARS-CoV2-nsp13	Q6WCQ1	0.813	MPRIP_HUMAN	reviewed	Myosin phosphatase Rho-interacting protein (M-RIP) (Rho-interacting protein 3) (RIP3) (p116Rip)	MPRIP KIAA0864 MRIP RHOIP3	Homo sapiens (Human)	1025
+SARS-CoV2-nsp12	Q6Y7W6	0.742	GGYF2_HUMAN	reviewed	GRB10-interacting GYF protein 2 (PERQ amino acid-rich with GYF domain-containing protein 2) (Trinucleotide repeat-containing gene 15 protein)	GIGYF2 KIAA0642 PERQ2 TNRC15	Homo sapiens (Human)	1299
+SARS-CoV2-nsp8	Q6Y7W6	0.709	GGYF2_HUMAN	reviewed	GRB10-interacting GYF protein 2 (PERQ amino acid-rich with GYF domain-containing protein 2) (Trinucleotide repeat-containing gene 15 protein)	GIGYF2 KIAA0642 PERQ2 TNRC15	Homo sapiens (Human)	1299
+SARS-CoV2-nsp13	Q6ZMI0	0.815	PPR21_HUMAN	reviewed	Protein phosphatase 1 regulatory subunit 21 (Coiled-coil domain-containing protein 128) (KLRAQ motif-containing protein 1)	PPP1R21 CCDC128 KLRAQ1	Homo sapiens (Human)	780
+SARS-CoV2-nsp13	Q6ZN66	0.822	GBP6_HUMAN	reviewed	Guanylate-binding protein 6 (GTP-binding protein 6) (GBP-6) (Guanine nucleotide-binding protein 6)	GBP6	Homo sapiens (Human)	633
+SARS-CoV2-nsp13	Q6ZP65	0.904	BICL1_HUMAN	reviewed	BICD family-like cargo adapter 1 (Bicaudal D-related protein 1) (BICD-related protein 1) (BICDR-1) (Coiled-coil domain-containing protein 64A) (CCDC64A)	BICDL1 BICDR1 CCDC64	Homo sapiens (Human)	573
+SARS-CoV2-nsp13	Q6ZU80	0.901	CE128_HUMAN	reviewed	Centrosomal protein of 128 kDa (Cep128)	CEP128 C14orf145 C14orf61	Homo sapiens (Human)	1094
+SARS-CoV2-nsp13	Q7L7X3	0.827	TAOK1_HUMAN	reviewed	Serine/threonine-protein kinase TAO1 (EC 2.7.11.1) (Kinase from chicken homolog B) (hKFC-B) (MARK Kinase) (MARKK) (Prostate-derived sterile 20-like kinase 2) (PSK-2) (PSK2) (Prostate-derived STE20-like kinase 2) (Thousand and one amino acid protein kinase 1) (TAOK1) (hTAOK1)	TAOK1 KIAA1361 MAP3K16 MARKK	Homo sapiens (Human)	1001
+SARS-CoV2-nsp13	Q7Z3E2	0.861	CC186_HUMAN	reviewed	Coiled-coil domain-containing protein 186 (CTCL tumor antigen HD-CL-01/L14-2)	CCDC186 C10orf118	Homo sapiens (Human)	898
+SARS-CoV2-nsp13	Q7Z406	0.946	MYH14_HUMAN	reviewed	Myosin-14 (Myosin heavy chain 14) (Myosin heavy chain, non-muscle IIc) (Non-muscle myosin heavy chain IIc) (NMHC II-C)	MYH14 KIAA2034 FP17425	Homo sapiens (Human)	1995
+SARS-CoV2-nsp12	Q7Z7A1	0.704	CNTRL_HUMAN	reviewed	Centriolin (Centrosomal protein 1) (Centrosomal protein of 110 kDa) (Cep110)	CNTRL CEP1 CEP110	Homo sapiens (Human)	2325
+SARS-CoV2-nsp13	Q7Z7B0	0.876	FLIP1_HUMAN	reviewed	Filamin-A-interacting protein 1 (FILIP)	FILIP1 KIAA1275	Homo sapiens (Human)	1213
+SARS-CoV2-nsp13	Q86SQ7	0.867	SDCG8_HUMAN	reviewed	Serologically defined colon cancer antigen 8 (Antigen NY-CO-8) (Centrosomal colon cancer autoantigen protein) (hCCCAP)	SDCCAG8 CCCAP NPHP10 HSPC085	Homo sapiens (Human)	713
+SARS-CoV2-nsp13	Q86UP2	0.913	KTN1_HUMAN	reviewed	Kinectin (CG-1 antigen) (Kinesin receptor)	KTN1 CG1 KIAA0004	Homo sapiens (Human)	1357
+SARS-CoV2-nsp13	Q86VH2	0.907	KIF27_HUMAN	reviewed	Kinesin-like protein KIF27	KIF27	Homo sapiens (Human)	1401
+SARS-CoV2-nsp13	Q86VP1	0.85	TAXB1_HUMAN	reviewed	Tax1-binding protein 1 (TRAF6-binding protein)	TAX1BP1 T6BP PRO0105	Homo sapiens (Human)	789
+SARS-CoV2-nsp13	Q86VQ0	0.826	LCA5_HUMAN	reviewed	Lebercilin (Leber congenital amaurosis 5 protein)	LCA5 C6orf152	Homo sapiens (Human)	697
+SARS-CoV2-nsp13	Q86VS8	0.895	HOOK3_HUMAN	reviewed	Protein Hook homolog 3 (h-hook3) (hHK3)	HOOK3	Homo sapiens (Human)	718
+SARS-CoV2-nsp13	Q86X02	0.838	CDR2L_HUMAN	reviewed	Cerebellar degeneration-related protein 2-like (Paraneoplastic 62 kDa antigen)	CDR2L HUMPPA	Homo sapiens (Human)	465
+SARS-CoV2-orf8	Q86YT6	0.79	MIB1_HUMAN	reviewed	E3 ubiquitin-protein ligase MIB1 (EC 2.3.2.27) (DAPK-interacting protein 1) (DIP-1) (Mind bomb homolog 1) (RING-type E3 ubiquitin transferase MIB1) (Zinc finger ZZ type with ankyrin repeat domain protein 2)	MIB1 DIP1 KIAA1323 ZZANK2	Homo sapiens (Human)	1006
+SARS-CoV2-nsp13	Q8IUG5	0.82	MY18B_HUMAN	reviewed	Unconventional myosin-XVIIIb	MYO18B	Homo sapiens (Human)	2567
+SARS-CoV2-orf9c	Q8IUR5	0.728	TMTC1_HUMAN	reviewed	Protein O-mannosyl-transferase TMTC1 (EC 2.4.1.109) (Transmembrane and TPR repeat-containing protein 1)	TMTC1 ARG99	Homo sapiens (Human)	882
+SARS-CoV2-nsp13	Q8IVF6	0.81	AN18A_HUMAN	reviewed	Ankyrin repeat domain-containing protein 18A	ANKRD18A KIAA2015	Homo sapiens (Human)	992
+SARS-CoV2-orf9c	Q8IWA5	0.863	CTL2_HUMAN	reviewed	Choline transporter-like protein 2 (Solute carrier family 44 member 2)	SLC44A2 CTL2 PSEC0210	Homo sapiens (Human)	706
+SARS-CoV2-nsp13	Q8IY18	0.826	SMC5_HUMAN	reviewed	Structural maintenance of chromosomes protein 5 (SMC protein 5) (SMC-5) (hSMC5)	SMC5 KIAA0594 SMC5L1	Homo sapiens (Human)	1101
+SARS-CoV2-nsp13	Q8IYA2	0.892	C144C_HUMAN	reviewed	Putative coiled-coil domain-containing protein 144C (Coiled-coil domain-containing protein 144C pseudogene)	CCDC144CP CCDC144C	Homo sapiens (Human)	1237
+SARS-CoV2-nsp13	Q8IYE0	0.865	CC146_HUMAN	reviewed	Coiled-coil domain-containing protein 146	CCDC146 KIAA1505	Homo sapiens (Human)	955
+SARS-CoV2-nsp13	Q8IYE1	0.914	CCD13_HUMAN	reviewed	Coiled-coil domain-containing protein 13	CCDC13	Homo sapiens (Human)	715
+SARS-CoV2-nsp13	Q8IYT3	0.886	CC170_HUMAN	reviewed	Coiled-coil domain-containing protein 170	CCDC170 C6orf97	Homo sapiens (Human)	715
+SARS-CoV2-nsp13	Q8N3L3	0.851	TXLNB_HUMAN	reviewed	Beta-taxilin (Muscle-derived protein 77) (hMDP77)	TXLNB C6orf198 MDP77	Homo sapiens (Human)	684
+SARS-CoV2-nsp13	Q8NB25	0.913	F184A_HUMAN	reviewed	Protein FAM184A	FAM184A C6orf60	Homo sapiens (Human)	1140
+SARS-CoV2-orf8	Q8NBJ5	0.792	GT251_HUMAN	reviewed	Procollagen galactosyltransferase 1 (EC 2.4.1.50) (Collagen beta(1-O)galactosyltransferase 1) (ColGalT 1) (Glycosyltransferase 25 family member 1) (Hydroxylysine galactosyltransferase 1)	COLGALT1 GLT25D1 PSEC0241	Homo sapiens (Human)	622
+SARS-CoV2-orf9c	Q8NBJ5	0.795	GT251_HUMAN	reviewed	Procollagen galactosyltransferase 1 (EC 2.4.1.50) (Collagen beta(1-O)galactosyltransferase 1) (ColGalT 1) (Glycosyltransferase 25 family member 1) (Hydroxylysine galactosyltransferase 1)	COLGALT1 GLT25D1 PSEC0241	Homo sapiens (Human)	622
+SARS-CoV2-nsp13	Q8NCX0	0.934	CC150_HUMAN	reviewed	Coiled-coil domain-containing protein 150	CCDC150	Homo sapiens (Human)	1101
+SARS-CoV2-nsp13	Q8ND07	0.85	BBOF1_HUMAN	reviewed	Basal body-orientation factor 1 (Coiled-coil domain-containing protein 176)	BBOF1 C14orf45 CCDC176	Homo sapiens (Human)	529
+SARS-CoV2-nsp13	Q8NDI1	0.839	EHBP1_HUMAN	reviewed	EH domain-binding protein 1	EHBP1 KIAA0903 NACSIN	Homo sapiens (Human)	1231
+SARS-CoV2-nsp13	Q8NDV3	0.845	SMC1B_HUMAN	reviewed	Structural maintenance of chromosomes protein 1B (SMC protein 1B) (SMC-1-beta) (SMC-1B)	SMC1B SMC1L2	Homo sapiens (Human)	1235
+SARS-CoV2-orf9c	Q8NDZ6	0.735	T161B_HUMAN	reviewed	Transmembrane protein 161B	TMEM161B UNQ679/PRO1313	Homo sapiens (Human)	487
+SARS-CoV2-nsp13	Q8NF91	0.922	SYNE1_HUMAN	reviewed	Nesprin-1 (Enaptin) (KASH domain-containing protein 1) (KASH1) (Myocyte nuclear envelope protein 1) (Myne-1) (Nuclear envelope spectrin repeat protein 1) (Synaptic nuclear envelope protein 1) (Syne-1)	SYNE1 C6orf98 KIAA0796 KIAA1262 KIAA1756 MYNE1	Homo sapiens (Human)	8797
+SARS-CoV2-nsp13	Q8NHQ8	0.821	RASF8_HUMAN	reviewed	Ras association domain-containing protein 8 (Carcinoma-associated protein HOJ-1)	RASSF8 C12orf2	Homo sapiens (Human)	419
+SARS-CoV2-orf9c	Q8NHX9	0.732	TPC2_HUMAN	reviewed	Two pore calcium channel protein 2 (Voltage-dependent calcium channel protein TPC2)	TPCN2 TPC2	Homo sapiens (Human)	752
+SARS-CoV2-nsp13	Q8TBA6	0.91	GOGA5_HUMAN	reviewed	Golgin subfamily A member 5 (Cell proliferation-inducing gene 31 protein) (Golgin-84) (Protein Ret-II) (RET-fused gene 5 protein)	GOLGA5 RETII RFG5 PIG31	Homo sapiens (Human)	731
+SARS-CoV2-nsp13	Q8TBF8	0.838	FA81A_HUMAN	reviewed	Protein FAM81A	FAM81A	Homo sapiens (Human)	368
+SARS-CoV2-nsp13	Q8TBY8	0.899	PMFBP_HUMAN	reviewed	Polyamine-modulated factor 1-binding protein 1 (PMF-1-binding protein)	PMFBP1	Homo sapiens (Human)	1007
+SARS-CoV2-nsp13	Q8TC20	0.829	CAGE1_HUMAN	reviewed	Cancer-associated gene 1 protein (CAGE-1) (Cancer/testis antigen 3) (CT3)	CAGE1 CTAG3	Homo sapiens (Human)	777
+SARS-CoV2-nsp13	Q8TD16	0.905	BICD2_HUMAN	reviewed	Protein bicaudal D homolog 2 (Bic-D 2)	BICD2 KIAA0699	Homo sapiens (Human)	824
+SARS-CoV2-nsp13	Q8TD31	0.868	CCHCR_HUMAN	reviewed	Coiled-coil alpha-helical rod protein 1 (Alpha-helical coiled-coil rod protein) (Putative gene 8 protein) (Pg8)	CCHCR1 C6orf18 HCR	Homo sapiens (Human)	782
+SARS-CoV2-nsp13	Q8TDY2	0.835	RBCC1_HUMAN	reviewed	RB1-inducible coiled-coil protein 1 (FAK family kinase-interacting protein of 200 kDa) (FIP200)	RB1CC1 KIAA0203 RBICC	Homo sapiens (Human)	1594
+SARS-CoV2-nsp13	Q8TES7	0.896	FBF1_HUMAN	reviewed	Fas-binding factor 1 (FBF-1) (Protein albatross)	FBF1 ALB KIAA1863	Homo sapiens (Human)	1133
+SARS-CoV2-nsp13	Q8WWB3	0.832	DYDC1_HUMAN	reviewed	DPY30 domain-containing protein 1	DYDC1 DPY30D1 RSD-9 RSD9	Homo sapiens (Human)	177
+SARS-CoV2-nsp13	Q8WXD2	0.805	SCG3_HUMAN	reviewed	Secretogranin-3 (Secretogranin III) (SgIII)	SCG3 UNQ2502/PRO5990	Homo sapiens (Human)	468
+SARS-CoV2-nsp13	Q8WXH0	0.912	SYNE2_HUMAN	reviewed	Nesprin-2 (KASH domain-containing protein 2) (KASH2) (Nuclear envelope spectrin repeat protein 2) (Nucleus and actin connecting element protein) (Protein NUANCE) (Synaptic nuclear envelope protein 2) (Syne-2)	SYNE2 KIAA1011 NUA	Homo sapiens (Human)	6885
+SARS-CoV2-nsp13	Q8WXW3	0.838	PIBF1_HUMAN	reviewed	Progesterone-induced-blocking factor 1 (PIBF) (Centrosomal protein of 90 kDa) (CEP90)	PIBF1 C13orf24 PIBF	Homo sapiens (Human)	757
+SARS-CoV2-nsp13	Q8WYA0	0.912	IFT81_HUMAN	reviewed	Intraflagellar transport protein 81 homolog (Carnitine deficiency-associated protein expressed in ventricle 1) (CDV-1)	IFT81 CDV1	Homo sapiens (Human)	676
+SARS-CoV2-nsp13	Q92614	0.865	MY18A_HUMAN	reviewed	Unconventional myosin-XVIIIa (Molecule associated with JAK3 N-terminus) (MAJN) (Myosin containing a PDZ domain) (Surfactant protein receptor SP-R210) (SP-R210)	MYO18A CD245 KIAA0216 MYSPDZ	Homo sapiens (Human)	2054
+SARS-CoV2-nsp12	Q92769	0.705	HDAC2_HUMAN	reviewed	Histone deacetylase 2 (HD2) (EC 3.5.1.98)	HDAC2	Homo sapiens (Human)	488
+SARS-CoV2-M	Q92769	0.758	HDAC2_HUMAN	reviewed	Histone deacetylase 2 (HD2) (EC 3.5.1.98)	HDAC2	Homo sapiens (Human)	488
+SARS-CoV2-nsp8	Q92769	0.758	HDAC2_HUMAN	reviewed	Histone deacetylase 2 (HD2) (EC 3.5.1.98)	HDAC2	Homo sapiens (Human)	488
+SARS-CoV2-orf8	Q92769	0.826	HDAC2_HUMAN	reviewed	Histone deacetylase 2 (HD2) (EC 3.5.1.98)	HDAC2	Homo sapiens (Human)	488
+SARS-CoV2-nsp13	Q92805	0.928	GOGA1_HUMAN	reviewed	Golgin subfamily A member 1 (Golgin-97)	GOLGA1	Homo sapiens (Human)	767
+SARS-CoV2-nsp13	Q92817	0.906	EVPL_HUMAN	reviewed	Envoplakin (210 kDa cornified envelope precursor protein) (210 kDa paraneoplastic pemphigus antigen) (p210)	EVPL	Homo sapiens (Human)	2033
+SARS-CoV2-nsp13	Q92878	0.931	RAD50_HUMAN	reviewed	DNA repair protein RAD50 (hRAD50) (EC 3.6.-.-)	RAD50	Homo sapiens (Human)	1312
+SARS-CoV2-orf9c	Q92887	0.731	MRP2_HUMAN	reviewed	Canalicular multispecific organic anion transporter 1 (ATP-binding cassette sub-family C member 2) (Canalicular multidrug resistance protein) (Multidrug resistance-associated protein 2) (EC 7.6.2.2)	ABCC2 CMOAT CMOAT1 CMRP MRP2	Homo sapiens (Human)	1545
+SARS-CoV2-nsp7	Q92928	0.877	RAB1C_HUMAN	reviewed	Putative Ras-related protein Rab-1C (hRab1c)	RAB1C	Homo sapiens (Human)	201
+SARS-CoV2-M	Q92930	0.738	RAB8B_HUMAN	reviewed	Ras-related protein Rab-8B	RAB8B	Homo sapiens (Human)	207
+SARS-CoV2-nsp7	Q92930	0.879	RAB8B_HUMAN	reviewed	Ras-related protein Rab-8B	RAB8B	Homo sapiens (Human)	207
+SARS-CoV2-nsp13	Q96AA8	0.841	JKIP2_HUMAN	reviewed	Janus kinase and microtubule-interacting protein 2 (CTCL tumor antigen HD-CL-04) (Neuroendocrine long coiled-coil protein 1)	JAKMIP2 JAMIP2 KIAA0555 NECC1	Homo sapiens (Human)	810
+SARS-CoV2-nsp7	Q96AX2	0.801	RAB37_HUMAN	reviewed	Ras-related protein Rab-37	RAB37	Homo sapiens (Human)	223
+SARS-CoV2-nsp13	Q96CN4	0.903	EVI5L_HUMAN	reviewed	EVI5-like protein (Ecotropic viral integration site 5-like protein)	EVI5L	Homo sapiens (Human)	794
+SARS-CoV2-nsp13	Q96CN5	0.92	LRC45_HUMAN	reviewed	Leucine-rich repeat-containing protein 45	LRRC45	Homo sapiens (Human)	670
+SARS-CoV2-nsp13	Q96CV9	0.858	OPTN_HUMAN	reviewed	Optineurin (E3-14.7K-interacting protein) (FIP-2) (Huntingtin yeast partner L) (Huntingtin-interacting protein 7) (HIP-7) (Huntingtin-interacting protein L) (NEMO-related protein) (Optic neuropathy-inducing protein) (Transcription factor IIIA-interacting protein) (TFIIIA-IntP)	OPTN FIP2 GLC1E HIP7 HYPL NRP	Homo sapiens (Human)	577
+SARS-CoV2-nsp7	Q96DA2	0.748	RB39B_HUMAN	reviewed	Ras-related protein Rab-39B	RAB39B	Homo sapiens (Human)	213
+SARS-CoV2-nsp13	Q96EA4	0.851	SPDLY_HUMAN	reviewed	Protein Spindly (hSpindly) (Arsenite-related gene 1 protein) (Coiled-coil domain-containing protein 99) (Rhabdomyosarcoma antigen MU-RMS-40.4A) (Spindle apparatus coiled-coil domain-containing protein 1)	SPDL1 CCDC99	Homo sapiens (Human)	605
+SARS-CoV2-nsp13	Q96ED9	0.886	HOOK2_HUMAN	reviewed	Protein Hook homolog 2 (h-hook2) (hHK2)	HOOK2	Homo sapiens (Human)	719
+SARS-CoV2-nsp13	Q96G01	0.854	BICD1_HUMAN	reviewed	Protein bicaudal D homolog 1 (Bic-D 1)	BICD1	Homo sapiens (Human)	975
+SARS-CoV2-orf9c	Q96HR9	0.81	REEP6_HUMAN	reviewed	Receptor expression-enhancing protein 6 (Polyposis locus protein 1-like 1)	REEP6 C19orf32 DP1L1	Homo sapiens (Human)	211
+SARS-CoV2-orf8	Q96JC1	0.793	VPS39_HUMAN	reviewed	Vam6/Vps39-like protein (TRAP1-like protein) (hVam6p)	VPS39 KIAA0770 TLP VAM6	Homo sapiens (Human)	886
+SARS-CoV2-nsp13	Q96JG6	0.81	VPS50_HUMAN	reviewed	Syndetin (Coiled-coil domain-containing protein 132) (EARP/GARPII complex subunit VPS50)	VPS50 CCDC132 KIAA1861	Homo sapiens (Human)	964
+SARS-CoV2-nsp13	Q96KN7	0.813	RPGR1_HUMAN	reviewed	X-linked retinitis pigmentosa GTPase regulator-interacting protein 1 (RPGR-interacting protein 1)	RPGRIP1	Homo sapiens (Human)	1286
+SARS-CoV2-nsp13	Q96L93	0.91	KI16B_HUMAN	reviewed	Kinesin-like protein KIF16B (Sorting nexin-23)	KIF16B C20orf23 KIAA1590 SNX23	Homo sapiens (Human)	1317
+SARS-CoV2-nsp13	Q96LB3	0.895	IFT74_HUMAN	reviewed	Intraflagellar transport protein 74 homolog (Capillary morphogenesis gene 1 protein) (CMG-1) (Coiled-coil domain-containing protein 2)	IFT74 CCDC2 CMG1	Homo sapiens (Human)	600
+SARS-CoV2-nsp13	Q96M83	0.831	CCDC7_HUMAN	reviewed	Coiled-coil domain-containing protein 7 (Protein BIOT2)	CCDC7 BIOT2 C10orf68	Homo sapiens (Human)	1385
+SARS-CoV2-nsp13	Q96M91	0.815	CFA53_HUMAN	reviewed	Cilia- and flagella-associated protein 53 (Coiled-coil domain-containing protein 11)	CFAP53 CCDC11	Homo sapiens (Human)	514
+SARS-CoV2-nsp13	Q96MT8	0.828	CEP63_HUMAN	reviewed	Centrosomal protein of 63 kDa (Cep63)	CEP63	Homo sapiens (Human)	703
+SARS-CoV2-nsp8	Q96N16	0.717	JKIP1_HUMAN	reviewed	Janus kinase and microtubule-interacting protein 1 (GABA-B receptor-binding protein) (Multiple alpha-helices and RNA-linker protein 1) (Marlin-1)	JAKMIP1 GABABRBP JAMIP1 MARLIN1	Homo sapiens (Human)	626
+SARS-CoV2-nsp13	Q96NL6	0.946	SCLT1_HUMAN	reviewed	Sodium channel and clathrin linker 1 (Sodium channel-associated protein 1)	SCLT1 SAP1	Homo sapiens (Human)	688
+SARS-CoV2-nsp13	Q96Q89	0.862	KI20B_HUMAN	reviewed	Kinesin-like protein KIF20B (Cancer/testis antigen 90) (CT90) (Kinesin family member 20B) (Kinesin-related motor interacting with PIN1) (M-phase phosphoprotein 1) (MPP1)	KIF20B KRMP1 MPHOSPH1	Homo sapiens (Human)	1820
+SARS-CoV2-orf8	Q96S66	0.798	CLCC1_HUMAN	reviewed	Chloride channel CLIC-like protein 1 (Mid-1-related chloride channel protein 1)	CLCC1 KIAA0761 MCLC	Homo sapiens (Human)	551
+SARS-CoV2-nsp13	Q96SB8	0.857	SMC6_HUMAN	reviewed	Structural maintenance of chromosomes protein 6 (SMC protein 6) (SMC-6) (hSMC6)	SMC6 SMC6L1	Homo sapiens (Human)	1091
+SARS-CoV2-nsp13	Q96ST8	0.869	CEP89_HUMAN	reviewed	Centrosomal protein of 89 kDa (Cep89) (Centrosomal protein 123) (Cep123) (Coiled-coil domain-containing protein 123)	CEP89 CCDC123	Homo sapiens (Human)	783
+SARS-CoV2-nsp13	Q96T51	0.834	RUFY1_HUMAN	reviewed	RUN and FYVE domain-containing protein 1 (FYVE-finger protein EIP1) (La-binding protein 1) (Rab4-interacting protein) (Zinc finger FYVE domain-containing protein 12)	RUFY1 RABIP4 ZFYVE12	Homo sapiens (Human)	708
+SARS-CoV2-nsp13	Q99459	0.899	CDC5L_HUMAN	reviewed	Cell division cycle 5-like protein (Cdc5-like protein) (Pombe cdc5-related protein)	CDC5L KIAA0432 PCDC5RP	Homo sapiens (Human)	802
+SARS-CoV2-M	Q99720	0.729	SGMR1_HUMAN	reviewed	Sigma non-opioid intracellular receptor 1 (Aging-associated gene 8 protein) (SR31747-binding protein) (SR-BP) (Sigma 1-type opioid receptor) (SIG-1R) (Sigma1-receptor) (Sigma1R) (hSigmaR1)	SIGMAR1 OPRS1 SRBP AAG8	Homo sapiens (Human)	223
+SARS-CoV2-orf9c	Q99758	0.754	ABCA3_HUMAN	reviewed	ATP-binding cassette sub-family A member 3 (ABC-C transporter) (ATP-binding cassette transporter 3) (ATP-binding cassette 3)	ABCA3 ABC3	Homo sapiens (Human)	1704
+SARS-CoV2-nsp13	Q9BSC4	0.837	NOL10_HUMAN	reviewed	Nucleolar protein 10	NOL10	Homo sapiens (Human)	688
+SARS-CoV2-nsp13	Q9BT92	0.842	TCHP_HUMAN	reviewed	Trichoplein keratin filament-binding protein (Protein TCHP) (Mitochondrial protein with oncostatic activity) (Mitostatin) (Tumor suppressor protein)	TCHP	Homo sapiens (Human)	498
+SARS-CoV2-nsp12	Q9BV73	0.72	CP250_HUMAN	reviewed	Centrosome-associated protein CEP250 (250 kDa centrosomal protein) (Cep250) (Centrosomal Nek2-associated protein 1) (C-Nap1) (Centrosomal protein 2)	CEP250 CEP2 CNAP1	Homo sapiens (Human)	2442
+SARS-CoV2-nsp13	Q9BXX3	0.808	AN30A_HUMAN	reviewed	Ankyrin repeat domain-containing protein 30A (Serologically defined breast cancer antigen NY-BR-1)	ANKRD30A	Homo sapiens (Human)	1397
+SARS-CoV2-nsp13	Q9BY12	0.807	SCAPE_HUMAN	reviewed	S phase cyclin A-associated protein in the endoplasmic reticulum (S phase cyclin A-associated protein in the ER) (Zinc finger protein 291)	SCAPER KIAA1454 ZNF291 MSTP063	Homo sapiens (Human)	1400
+SARS-CoV2-nsp13	Q9BZF9	0.936	UACA_HUMAN	reviewed	Uveal autoantigen with coiled-coil domains and ankyrin repeats	UACA KIAA1561	Homo sapiens (Human)	1416
+SARS-CoV2-nsp13	Q9BZW7	0.837	TSG10_HUMAN	reviewed	Testis-specific gene 10 protein (Testis development protein NYD-SP7)	TSGA10 CEP4L	Homo sapiens (Human)	698
+SARS-CoV2-nsp13	Q9C093	0.808	SPEF2_HUMAN	reviewed	Sperm flagellar protein 2 (Protein KPL2)	SPEF2 KIAA1770 KPL2	Homo sapiens (Human)	1822
+SARS-CoV2-nsp13	Q9C099	0.92	LRCC1_HUMAN	reviewed	Leucine-rich repeat and coiled-coil domain-containing protein 1 (Centrosomal leucine-rich repeat and coiled-coil domain-containing protein)	LRRCC1 CLERC KIAA1764	Homo sapiens (Human)	1032
+SARS-CoV2-nsp13	Q9H0E9	0.808	BRD8_HUMAN	reviewed	Bromodomain-containing protein 8 (Skeletal muscle abundant protein) (Skeletal muscle abundant protein 2) (Thyroid hormone receptor coactivating protein of 120 kDa) (TrCP120) (p120)	BRD8 SMAP SMAP2	Homo sapiens (Human)	1235
+SARS-CoV2-nsp13	Q9H0I3	0.854	CC113_HUMAN	reviewed	Coiled-coil domain-containing protein 113	CCDC113 HSPC065	Homo sapiens (Human)	377
+SARS-CoV2-nsp7	Q9H0U4	0.9	RAB1B_HUMAN	reviewed	Ras-related protein Rab-1B	RAB1B	Homo sapiens (Human)	201
+SARS-CoV2-nsp12	Q9H2G2	0.702	SLK_HUMAN	reviewed	STE20-like serine/threonine-protein kinase (STE20-like kinase) (hSLK) (EC 2.7.11.1) (CTCL tumor antigen se20-9) (STE20-related serine/threonine-protein kinase) (STE20-related kinase) (Serine/threonine-protein kinase 2)	SLK KIAA0204 STK2	Homo sapiens (Human)	1235
+SARS-CoV2-nsp13	Q9H2G2	0.946	SLK_HUMAN	reviewed	STE20-like serine/threonine-protein kinase (STE20-like kinase) (hSLK) (EC 2.7.11.1) (CTCL tumor antigen se20-9) (STE20-related serine/threonine-protein kinase) (STE20-related kinase) (Serine/threonine-protein kinase 2)	SLK KIAA0204 STK2	Homo sapiens (Human)	1235
+SARS-CoV2-nsp13	Q9H2K8	0.848	TAOK3_HUMAN	reviewed	Serine/threonine-protein kinase TAO3 (EC 2.7.11.1) (Cutaneous T-cell lymphoma-associated antigen HD-CL-09) (CTCL-associated antigen HD-CL-09) (Dendritic cell-derived protein kinase) (JNK/SAPK-inhibitory kinase) (Jun kinase-inhibitory kinase) (Kinase from chicken homolog A) (hKFC-A) (Thousand and one amino acid protein 3)	TAOK3 DPK JIK KDS MAP3K18	Homo sapiens (Human)	898
+SARS-CoV2-nsp13	Q9H6N6	0.84	MYH16_HUMAN	reviewed	Putative uncharacterized protein MYH16 (Myosin heavy chain 16 pseudogene) (myosin heavy polypeptide 5)	MYH16 MYH5	Homo sapiens (Human)	1097
+SARS-CoV2-nsp13	Q9HC77	0.814	CENPJ_HUMAN	reviewed	Centromere protein J (CENP-J) (Centrosomal P4.1-associated protein) (LAG-3-associated protein) (LYST-interacting protein 1)	CENPJ CPAP LAP LIP1	Homo sapiens (Human)	1338
+SARS-CoV2-nsp13	Q9NNX1	0.815	TUFT1_HUMAN	reviewed	Tuftelin	TUFT1	Homo sapiens (Human)	390
+SARS-CoV2-orf8	Q9NP72	0.788	RAB18_HUMAN	reviewed	Ras-related protein Rab-18	RAB18	Homo sapiens (Human)	206
+SARS-CoV2-orf9c	Q9NQZ7	0.728	ENTP7_HUMAN	reviewed	Ectonucleoside triphosphate diphosphohydrolase 7 (NTPDase 7) (EC 3.6.1.-) (Lysosomal apyrase-like protein 1)	ENTPD7 LALP1	Homo sapiens (Human)	604
+SARS-CoV2-nsp13	Q9NRC6	0.863	SPTN5_HUMAN	reviewed	Spectrin beta chain, non-erythrocytic 5 (Beta-V spectrin)	SPTBN5 BSPECV HUBSPECV HUSPECV	Homo sapiens (Human)	3674
+SARS-CoV2-nsp13	Q9NS87	0.921	KIF15_HUMAN	reviewed	Kinesin-like protein KIF15 (Kinesin-like protein 2) (hKLP2) (Kinesin-like protein 7) (Serologically defined breast cancer antigen NY-BR-62)	KIF15 KLP2 KNSL7	Homo sapiens (Human)	1388
+SARS-CoV2-nsp13	Q9NTJ3	0.806	SMC4_HUMAN	reviewed	Structural maintenance of chromosomes protein 4 (SMC protein 4) (SMC-4) (Chromosome-associated polypeptide C) (hCAP-C) (XCAP-C homolog)	SMC4 CAPC SMC4L1	Homo sapiens (Human)	1288
+SARS-CoV2-nsp12	Q9NU22	0.746	MDN1_HUMAN	reviewed	Midasin (Dynein-related AAA-ATPase MDN1) (MIDAS-containing protein)	MDN1 KIAA0301	Homo sapiens (Human)	5596
+SARS-CoV2-nsp13	Q9NU22	0.864	MDN1_HUMAN	reviewed	Midasin (Dynein-related AAA-ATPase MDN1) (MIDAS-containing protein)	MDN1 KIAA0301	Homo sapiens (Human)	5596
+SARS-CoV2-M	Q9NU22	0.774	MDN1_HUMAN	reviewed	Midasin (Dynein-related AAA-ATPase MDN1) (MIDAS-containing protein)	MDN1 KIAA0301	Homo sapiens (Human)	5596
+SARS-CoV2-orf8	Q9NU22	0.868	MDN1_HUMAN	reviewed	Midasin (Dynein-related AAA-ATPase MDN1) (MIDAS-containing protein)	MDN1 KIAA0301	Homo sapiens (Human)	5596
+SARS-CoV2-nsp13	Q9NWH9	0.834	SLTM_HUMAN	reviewed	SAFB-like transcription modulator (Modulator of estrogen-induced transcription)	SLTM MET	Homo sapiens (Human)	1034
+SARS-CoV2-nsp13	Q9NXG0	0.942	CNTLN_HUMAN	reviewed	Centlein (Centrosomal protein)	CNTLN C9orf101 C9orf39	Homo sapiens (Human)	1405
+SARS-CoV2-nsp12	Q9NXH9	0.739	TRM1_HUMAN	reviewed	tRNA (guanine(26)-N(2))-dimethyltransferase (EC 2.1.1.216) (tRNA 2,2-dimethylguanosine-26 methyltransferase) (tRNA(guanine-26,N(2)-N(2)) methyltransferase) (tRNA(m(2,2)G26)dimethyltransferase)	TRMT1	Homo sapiens (Human)	659
+SARS-CoV2-nsp7	Q9NXH9	0.747	TRM1_HUMAN	reviewed	tRNA (guanine(26)-N(2))-dimethyltransferase (EC 2.1.1.216) (tRNA 2,2-dimethylguanosine-26 methyltransferase) (tRNA(guanine-26,N(2)-N(2)) methyltransferase) (tRNA(m(2,2)G26)dimethyltransferase)	TRMT1	Homo sapiens (Human)	659
+SARS-CoV2-M	Q9NXH9	0.782	TRM1_HUMAN	reviewed	tRNA (guanine(26)-N(2))-dimethyltransferase (EC 2.1.1.216) (tRNA 2,2-dimethylguanosine-26 methyltransferase) (tRNA(guanine-26,N(2)-N(2)) methyltransferase) (tRNA(m(2,2)G26)dimethyltransferase)	TRMT1	Homo sapiens (Human)	659
+SARS-CoV2-nsp8	Q9NXH9	0.76	TRM1_HUMAN	reviewed	tRNA (guanine(26)-N(2))-dimethyltransferase (EC 2.1.1.216) (tRNA 2,2-dimethylguanosine-26 methyltransferase) (tRNA(guanine-26,N(2)-N(2)) methyltransferase) (tRNA(m(2,2)G26)dimethyltransferase)	TRMT1	Homo sapiens (Human)	659
+SARS-CoV2-orf8	Q9NXH9	0.868	TRM1_HUMAN	reviewed	tRNA (guanine(26)-N(2))-dimethyltransferase (EC 2.1.1.216) (tRNA 2,2-dimethylguanosine-26 methyltransferase) (tRNA(guanine-26,N(2)-N(2)) methyltransferase) (tRNA(m(2,2)G26)dimethyltransferase)	TRMT1	Homo sapiens (Human)	659
+SARS-CoV2-nsp13	Q9NYA3	0.806	GOG6A_HUMAN	reviewed	Golgin subfamily A member 6A (Golgin linked to PML) (Golgin-like protein)	GOLGA6A GLP GOLGA6	Homo sapiens (Human)	693
+SARS-CoV2-M	Q9NYU1	0.723	UGGG2_HUMAN	reviewed	UDP-glucose:glycoprotein glucosyltransferase 2 (UGT2) (hUGT2) (EC 2.4.1.-) (UDP--Glc:glycoprotein glucosyltransferase 2) (UDP-glucose ceramide glucosyltransferase-like 1)	UGGT2 UGCGL2 UGT2	Homo sapiens (Human)	1516
+SARS-CoV2-nsp13	Q9P0K7	0.823	RAI14_HUMAN	reviewed	Ankycorbin (Ankyrin repeat and coiled-coil structure-containing protein) (Novel retinal pigment epithelial cell protein) (Retinoic acid-induced protein 14)	RAI14 KIAA1334 NORPEG	Homo sapiens (Human)	980
+SARS-CoV2-nsp8	Q9P0L2	0.704	MARK1_HUMAN	reviewed	Serine/threonine-protein kinase MARK1 (EC 2.7.11.1) (EC 2.7.11.26) (MAP/microtubule affinity-regulating kinase 1) (PAR1 homolog c) (Par-1c) (Par1c)	MARK1 KIAA1477 MARK	Homo sapiens (Human)	795
+SARS-CoV2-nsp13	Q9P1Z2	0.882	CACO1_HUMAN	reviewed	Calcium-binding and coiled-coil domain-containing protein 1 (Calphoglin) (Coiled-coil coactivator protein) (Sarcoma antigen NY-SAR-3)	CALCOCO1 KIAA1536 PP13275 UNQ2436/PRO4996	Homo sapiens (Human)	691
+SARS-CoV2-nsp13	Q9P219	0.927	DAPLE_HUMAN	reviewed	Protein Daple (Coiled-coil domain-containing protein 88C) (Dvl-associating protein with a high frequency of leucine residues) (hDaple) (Hook-related protein 2) (HkRP2)	CCDC88C DAPLE KIAA1509	Homo sapiens (Human)	2028
+SARS-CoV2-nsp13	Q9P2M7	0.937	CING_HUMAN	reviewed	Cingulin	CGN KIAA1319	Homo sapiens (Human)	1197
+SARS-CoV2-nsp13	Q9UFE4	0.87	CCD39_HUMAN	reviewed	Coiled-coil domain-containing protein 39	CCDC39	Homo sapiens (Human)	941
+SARS-CoV2-nsp13	Q9UKX2	0.896	MYH2_HUMAN	reviewed	Myosin-2 (Myosin heavy chain 2) (Myosin heavy chain 2a) (MyHC-2a) (Myosin heavy chain IIa) (MyHC-IIa) (Myosin heavy chain, skeletal muscle, adult 2)	MYH2 MYHSA2	Homo sapiens (Human)	1941
+SARS-CoV2-nsp13	Q9UKX3	0.906	MYH13_HUMAN	reviewed	Myosin-13 (Myosin heavy chain 13) (Myosin heavy chain, skeletal muscle, extraocular) (MyHC-EO) (Myosin heavy chain, skeletal muscle, laryngeal) (MyHC-IIL) (Superfast myosin)	MYH13	Homo sapiens (Human)	1938
+SARS-CoV2-nsp13	Q9UL16	0.832	CFA45_HUMAN	reviewed	Cilia- and flagella-associated protein 45 (Coiled-coil domain-containing protein 19) (Nasopharyngeal epithelium-specific protein 1)	CFAP45 CCDC19 NESG1	Homo sapiens (Human)	551
+SARS-CoV2-nsp7	Q9UL26	0.795	RB22A_HUMAN	reviewed	Ras-related protein Rab-22A (Rab-22)	RAB22A RAB22	Homo sapiens (Human)	194
+SARS-CoV2-nsp13	Q9ULE4	0.884	F184B_HUMAN	reviewed	Protein FAM184B	FAM184B KIAA1276	Homo sapiens (Human)	1060
+SARS-CoV2-nsp13	Q9ULV0	0.836	MYO5B_HUMAN	reviewed	Unconventional myosin-Vb	MYO5B KIAA1119	Homo sapiens (Human)	1848
+SARS-CoV2-nsp13	Q9UM54	0.812	MYO6_HUMAN	reviewed	Unconventional myosin-VI (Unconventional myosin-6)	MYO6 KIAA0389	Homo sapiens (Human)	1294
+SARS-CoV2-nsp12	Q9UN86	0.722	G3BP2_HUMAN	reviewed	Ras GTPase-activating protein-binding protein 2 (G3BP-2) (GAP SH3 domain-binding protein 2)	G3BP2 KIAA0660	Homo sapiens (Human)	482
+SARS-CoV2-M	Q9UN86	0.719	G3BP2_HUMAN	reviewed	Ras GTPase-activating protein-binding protein 2 (G3BP-2) (GAP SH3 domain-binding protein 2)	G3BP2 KIAA0660	Homo sapiens (Human)	482
+SARS-CoV2-nsp8	Q9UN86	0.702	G3BP2_HUMAN	reviewed	Ras GTPase-activating protein-binding protein 2 (G3BP-2) (GAP SH3 domain-binding protein 2)	G3BP2 KIAA0660	Homo sapiens (Human)	482
+SARS-CoV2-orf8	Q9UN86	0.798	G3BP2_HUMAN	reviewed	Ras GTPase-activating protein-binding protein 2 (G3BP-2) (GAP SH3 domain-binding protein 2)	G3BP2 KIAA0660	Homo sapiens (Human)	482
+SARS-CoV2-nsp13	Q9UPN3	0.938	MACF1_HUMAN	reviewed	Microtubule-actin cross-linking factor 1, isoforms 1/2/3/5 (620 kDa actin-binding protein) (ABP620) (Actin cross-linking family protein 7) (Macrophin-1) (Trabeculin-alpha)	MACF1 ABP620 ACF7 KIAA0465 KIAA1251	Homo sapiens (Human)	7388
+SARS-CoV2-nsp13	Q9UPN4	0.898	CP131_HUMAN	reviewed	Centrosomal protein of 131 kDa (5-azacytidine-induced protein 1) (Pre-acrosome localization protein 1)	CEP131 AZI1 KIAA1118	Homo sapiens (Human)	1083
+SARS-CoV2-nsp13	Q9UPS8	0.939	ANR26_HUMAN	reviewed	Ankyrin repeat domain-containing protein 26	ANKRD26 KIAA1074	Homo sapiens (Human)	1710
+SARS-CoV2-nsp13	Q9UPV0	0.905	CE164_HUMAN	reviewed	Centrosomal protein of 164 kDa (Cep164)	CEP164 KIAA1052 NPHP15	Homo sapiens (Human)	1460
+SARS-CoV2-nsp12	Q9UQE7	0.709	SMC3_HUMAN	reviewed	Structural maintenance of chromosomes protein 3 (SMC protein 3) (SMC-3) (Basement membrane-associated chondroitin proteoglycan) (Bamacan) (Chondroitin sulfate proteoglycan 6) (Chromosome-associated polypeptide) (hCAP)	SMC3 BAM BMH CSPG6 SMC3L1	Homo sapiens (Human)	1217
+SARS-CoV2-nsp13	Q9UQE7	0.958	SMC3_HUMAN	reviewed	Structural maintenance of chromosomes protein 3 (SMC protein 3) (SMC-3) (Basement membrane-associated chondroitin proteoglycan) (Bamacan) (Chondroitin sulfate proteoglycan 6) (Chromosome-associated polypeptide) (hCAP)	SMC3 BAM BMH CSPG6 SMC3L1	Homo sapiens (Human)	1217
+SARS-CoV2-nsp8	Q9UQE7	0.714	SMC3_HUMAN	reviewed	Structural maintenance of chromosomes protein 3 (SMC protein 3) (SMC-3) (Basement membrane-associated chondroitin proteoglycan) (Bamacan) (Chondroitin sulfate proteoglycan 6) (Chromosome-associated polypeptide) (hCAP)	SMC3 BAM BMH CSPG6 SMC3L1	Homo sapiens (Human)	1217
+SARS-CoV2-nsp13	Q9Y250	0.821	LZTS1_HUMAN	reviewed	Leucine zipper putative tumor suppressor 1 (F37/esophageal cancer-related gene-coding leucine-zipper motif) (Fez1)	LZTS1 FEZ1	Homo sapiens (Human)	596
+SARS-CoV2-nsp13	Q9Y2J4	0.832	AMOL2_HUMAN	reviewed	Angiomotin-like protein 2 (Leman coiled-coil protein) (LCCP)	AMOTL2 KIAA0989	Homo sapiens (Human)	779
+SARS-CoV2-nsp13	Q9Y2K3	0.874	MYH15_HUMAN	reviewed	Myosin-15 (Myosin heavy chain 15)	MYH15 KIAA1000	Homo sapiens (Human)	1946
+SARS-CoV2-nsp13	Q9Y496	0.84	KIF3A_HUMAN	reviewed	Kinesin-like protein KIF3A (Microtubule plus end-directed kinesin motor 3A)	KIF3A KIF3	Homo sapiens (Human)	699
+SARS-CoV2-nsp13	Q9Y4I1	0.856	MYO5A_HUMAN	reviewed	Unconventional myosin-Va (Dilute myosin heavy chain, non-muscle) (Myosin heavy chain 12) (Myosin-12) (Myoxin)	MYO5A MYH12	Homo sapiens (Human)	1855
+SARS-CoV2-nsp13	Q9Y4L1	0.836	HYOU1_HUMAN	reviewed	Hypoxia up-regulated protein 1 (150 kDa oxygen-regulated protein) (ORP-150) (170 kDa glucose-regulated protein) (GRP-170)	HYOU1 GRP170 ORP150	Homo sapiens (Human)	999
+SARS-CoV2-M	Q9Y4L1	0.715	HYOU1_HUMAN	reviewed	Hypoxia up-regulated protein 1 (150 kDa oxygen-regulated protein) (ORP-150) (170 kDa glucose-regulated protein) (GRP-170)	HYOU1 GRP170 ORP150	Homo sapiens (Human)	999
+SARS-CoV2-nsp8	Q9Y4L1	0.765	HYOU1_HUMAN	reviewed	Hypoxia up-regulated protein 1 (150 kDa oxygen-regulated protein) (ORP-150) (170 kDa glucose-regulated protein) (GRP-170)	HYOU1 GRP170 ORP150	Homo sapiens (Human)	999
+SARS-CoV2-nsp13	Q9Y592	0.893	CEP83_HUMAN	reviewed	Centrosomal protein of 83 kDa (Cep83) (Coiled-coil domain-containing protein 41) (Renal carcinoma antigen NY-REN-58)	CEP83 CCDC41	Homo sapiens (Human)	701
+SARS-CoV2-nsp13	Q9Y608	0.868	LRRF2_HUMAN	reviewed	Leucine-rich repeat flightless-interacting protein 2 (LRR FLII-interacting protein 2)	LRRFIP2	Homo sapiens (Human)	721
+SARS-CoV2-nsp13	Q9Y623	0.931	MYH4_HUMAN	reviewed	Myosin-4 (Myosin heavy chain 2b) (MyHC-2b) (Myosin heavy chain 4) (Myosin heavy chain IIb) (MyHC-IIb) (Myosin heavy chain, skeletal muscle, fetal)	MYH4	Homo sapiens (Human)	1939
+SARS-CoV2-nsp13	Q9Y6D9	0.934	MD1L1_HUMAN	reviewed	Mitotic spindle assembly checkpoint protein MAD1 (Mitotic arrest deficient 1-like protein 1) (MAD1-like protein 1) (Mitotic checkpoint MAD1 protein homolog) (HsMAD1) (hMAD1) (Tax-binding protein 181)	MAD1L1 MAD1 TXBP181	Homo sapiens (Human)	718
