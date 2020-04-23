@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split, cross_validate, Stratified
 from sklearn.linear_model import LogisticRegression
 
 import pickle
-from interpret.glassbox import ExplainableBoostingClassifier
+#from interpret.glassbox import ExplainableBoostingClassifier
 #from interpret.perf import ROC
 
 seed=0
@@ -57,21 +57,6 @@ def save_model(ebm, model_file):
     pickle.dump(ebm,model_pkl)
     model_pkl.close()
 
-def tune_ebm(X_train, y_train):
-    reslist = []
-    metric_idx=1  # index where AUC is stored
-    for interac in [50, 100, 500]: 
-        clf = ExplainableBoostingClassifier(random_state=seed, interactions=interac)
-        cv_results = cross_validate(clf, X_train, y_train, cv=3, scoring='average_precision')
-        reslist.append((interac, np.mean(cv_results['test_score'])))
-    print(*reslist, sep='\n')
-    reslist = np.asarray(reslist)
-    bestid = np.where(reslist[:,metric_idx]==max(reslist[:,metric_idx]))[0][0]
-    clf = ExplainableBoostingClassifier(random_state=seed, interactions=reslist[bestid,0])
-    clf = clf.fit(X_train, y_train)
-    return clf
-
-
 if __name__ == "__main__":
    
     if len(sys.argv) < 8:
@@ -102,7 +87,7 @@ if __name__ == "__main__":
 
     # reading features
     print('Reading pos file... ')
-    X_pos = pd.read_csv(pos_feats_file, compression='gzip', header=0)
+    X_pos = pd.read_csv(pos_feats_file, header=0)
     npos = X_pos.shape[0]
     X_train_pos = X_pos.iloc[pick_idx, :]
     X_test_pos = X_pos.drop(pick_idx)
@@ -132,6 +117,7 @@ if __name__ == "__main__":
 
     # train and test, performance output    
     #clf = tune_ebm(X_train, y_train)
+    y_train = y_train.ravel()
     clf = do_logreg_paramtuning(X_train, y_train, 0)
     print("Finished training ...")
     curr_perf = []

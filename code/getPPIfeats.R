@@ -60,8 +60,8 @@ p2list = unlist(lapply(1:nrow(ppis), function(i) {
 good.ppis = intersect(which(p1list>0) , which(p2list>0))
 length(good.ppis)
 
-p1list=p1list(good.ppis)
-p2list=p2list(good.ppis)
+p1list=p1list[good.ppis]
+p2list=p2list[good.ppis]
 
 p1feats=feats[p1list,]
 p2feats=feats[p2list,]
@@ -71,7 +71,7 @@ feats.mat = cbind(p1feats,p2feats)
 dim(feats.mat)
 #feats.mat <- Reduce("rbind", res)
 
-write.table(feats.mat,file=sprintf("%s_feats.csv",out_prefix),sep=",")
+write.table(feats.mat,file=sprintf("%s_feats.csv",out_prefix),sep=",",row.names=F)
 write.table(good.ppis,file=sprintf("%s.csv",out_prefix),sep=",")
 
 
