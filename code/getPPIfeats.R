@@ -17,6 +17,9 @@ prots=readFASTA(fasta_file)
 # generate features for all proteins
 prots <- prots[(sapply(prots, protcheck))] 
 
+prots.names = read.table("../data/all_proteinids.txt",header=F)
+prots.names=prots.names$V1
+
 prots.names = unlist(lapply(list.names(prots),function(x) { 
       if(grepl("\\|",x)) {
 	strsplit(x,"\\|")[[1]][2] 
