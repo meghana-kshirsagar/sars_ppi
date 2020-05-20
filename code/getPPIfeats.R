@@ -60,6 +60,24 @@ p2list = unlist(lapply(1:nrow(ppis), function(i) {
    idx
  }))
 
+#### get only human protein features
+ppis=read.csv("features/krogan_ppis_good.csv")
+krogan_pos=ppis$V2
+p1list = unlist(lapply(1:nrow(hprots), function(i) {
+  if(!(hprots[i,1] %in% krogan_pos)) {
+   idx = which(prots.names==hprots[i,1])
+   if(length(idx)==0) { idx = 0 }
+  }
+  else { idx = 0 }
+  idx
+ }))
+
+good.ppis=which(p1list>0)
+p1list=p1list[good.ppis]
+p1feats=feats[p1list,]
+
+#################################
+
 good.ppis = intersect(which(p1list>0) , which(p2list>0))
 length(good.ppis)
 
@@ -74,7 +92,10 @@ feats.mat = cbind(p1feats,p2feats)
 dim(feats.mat)
 #feats.mat <- Reduce("rbind", res)
 
+good.ppis = ppis[good.ppis,]
+
 write.table(feats.mat,file=sprintf("%s_feats.csv",out_prefix),sep=",",row.names=F)
 write.table(good.ppis,file=sprintf("%s.csv",out_prefix),sep=",")
+
 
 

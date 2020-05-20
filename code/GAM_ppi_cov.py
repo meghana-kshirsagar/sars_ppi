@@ -1,62 +1,16 @@
 
-import pandas as pd
 import sys
+import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
 #import seaborn as sns
-from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import MinMaxScaler, StandardScaler
-from interpret import show
-from interpret.data import ClassHistogram
+
+from sklearn.model_selection import StratifiedKFold
 from sklearn import metrics
-from sklearn.model_selection import train_test_split, KFold, cross_validate, GridSearchCV, StratifiedKFold
 
-import pickle
-from interpret.glassbox import ExplainableBoostingClassifier, LogisticRegression, ClassificationTree, DecisionListClassifier
-from interpret.perf import ROC
+from interpret.glassbox import ExplainableBoostingClassifier  #, LogisticRegression, ClassificationTree
 
-seed=0
+from utils import do_logreg_paramtuning, normalize_train_test,impute_train_test,imputeX,get_aucpr,get_auc,binarize,get_fmax,get_aucpr_R,get_auc_R,compute_eval_measures,compute_early_prec,get_early_prec,compute_fmax
 
-def normalize_train_test(X_train, X_test):
-    scaler = StandardScaler()
-    scaler.fit(X_train)
-    X_train = scaler.transform(X_train)
-    X_test = scaler.transform(X_test)
-    return X_train, X_test
-
-def impute_train_test(X_train, X_test):
-    #replace -8888 values with Nan and then use simple imputer 
-    imp_mean = SimpleImputer(missing_values=np.nan, strategy='mean')
-    imp_mean.fit(X_train)
-    X_train = imp_mean.transform(X_train)
-    X_test = imp_mean.transform(X_test)
-    return X_train, X_test
-
-def imputeX(X):
-    #replace -8888 values with Nan and then use simple imputer 
-    imp_mean = SimpleImputer(missing_values=np.nan, strategy='mean')
-    imp_mean.fit(X)
-    X = imp_mean.transform(X)
-    return X
-
-def get_aucpr(y_true, y_pred, pos_label=1):
-    #fpr, tpr, thresholds = sklearn.metrics.roc_curve(y_true, pred, pos_label=2)
-    precision, recall, thresholds = metrics.precision_recall_curve(y_true, y_pred, pos_label)
-    auc_val = metrics.auc(recall, precision)
-    return auc_val
-
-def get_auc(labels, preds, pos_label=1):
-    fpr, tpr, _ = metrics.roc_curve(labels, preds, pos_label)
-    return metrics.auc(fpr, tpr)
-
-def binarize(y_pred):
-    return [int(x >= 0.5) for x in y_pred]
-
-
-def save_model(ebm, model_file):
-    model_pkl = open(model_file, 'wb')
-    pickle.dump(ebm,model_pkl)
-    model_pkl.close()
 
 def tune_ebm(X_train, y_train):
     reslist = []
@@ -69,7 +23,7 @@ def tune_ebm(X_train, y_train):
     reslist = np.asarray(reslist)
     bestid = np.where(reslist[:,metric_idx]==max(reslist[:,metric_idx]))[0][0]
     clf = ExplainableBoostingClassifier(random_state=seed, interactions=reslist[bestid,0])
-    clf = clf.fit(X_train, y_train)
+    clf.fit(X_train, y_train)
     return clf
 
 
@@ -77,11 +31,14 @@ if __name__ == "__main__":
     posfile = sys.argv[1]
     negfile = sys.argv[2]
     negfrac = float(sys.argv[3])
+    interac = int(sys.argv[4])
     print('Reading pos file... ')
-    X_pos = pd.read_csv(posfile, compression='gzip', header=0)
+    #X_pos = pd.read_csv(posfile, compression='gzip', header=0)
+    X_pos = pd.read_csv(posfile, header=0)
     npos = X_pos.shape[0]
     print('Reading neg file... ')
-    X_neg = pd.read_csv(negfile, compression='gzip', header=0)
+    #X_neg = pd.read_csv(negfile, compression='gzip', header=0)
+    X_neg = pd.read_csv(negfile, header=0)
     nneg = X_neg.shape[0]
     feat_names=X_pos.columns
     samp = np.random.randint(0,nneg,int(npos*negfrac))
@@ -102,25 +59,36 @@ if __name__ == "__main__":
         train_idxes_cov.append(train_index)
         test_idxes_cov.append(test_index)
     
-    
-    splitwise_perf = []
-    for split in range(0,5):
-        X_train_cov, X_test_cov = X_cov.iloc[train_idxes_cov[split],:], X_cov.iloc[test_idxes_cov[split],:]
-        y_train_cov, y_test_cov = y_cov[train_idxes_cov[split]], y_cov[test_idxes_cov[split]]
-        y_train_cov = y_train_cov.ravel()
-        clf = tune_ebm(X_train_cov, y_train_cov)
-        curr_perf = []
-        y_pred_cov = clf.predict(X_test_cov)
-        curr_perf += [metrics.accuracy_score(y_test_cov, y_pred_cov)]
-        print(metrics.confusion_matrix(y_test_cov, y_pred_cov))
-        y_pred_cov = clf.predict_proba(X_test_cov)
-        curr_perf += [get_aucpr(y_test_cov, y_pred_cov[:,1])]
-        curr_perf += [get_auc(y_test_cov, y_pred_cov[:,1])]
-        print(curr_perf)
-        splitwise_perf.append(curr_perf)
-        # save model
-        save_model(clf,format("models/ebm_covonly_split%d_1to1_int.pkl" % split))
-    
-    
-    print(np.mean(splitwise_perf,axis=0))
-    
+    #for interac in [0]: # [5, 10, 50, 100, 300, 500]: 
+    if True:
+        print("======================== ", interac," ======================")
+        splitwise_perf = []
+        for split in range(0,5):
+            X_train_cov, X_test_cov = X_cov.iloc[train_idxes_cov[split],:], X_cov.iloc[test_idxes_cov[split],:]
+            y_train_cov, y_test_cov = y_cov[train_idxes_cov[split]], y_cov[test_idxes_cov[split]]
+            y_train_cov = y_train_cov.ravel()
+            #clf = tune_ebm(X_train_cov, y_train_cov)
+
+            if interac==0:
+                clf = ExplainableBoostingClassifier()
+            else:
+                clf = ExplainableBoostingClassifier(interactions=interac)
+
+            clf.fit(X_train_cov, y_train_cov)
+            curr_perf = []
+            y_pred_cov = clf.predict(X_test_cov)
+            #curr_perf += [metrics.accuracy_score(y_test_cov, y_pred_cov)]
+            print(metrics.confusion_matrix(y_test_cov, y_pred_cov))
+            y_pred_cov = clf.predict_proba(X_test_cov)
+            curr_perf += [get_aucpr_R(y_test_cov, y_pred_cov[:,1])]
+            curr_perf += [get_auc_R(y_test_cov, y_pred_cov[:,1])]
+            curr_perf += [get_fmax(y_test_cov, y_pred_cov[:,1])]
+            curr_perf += get_early_prec(y_test_cov, y_pred_cov[:,1])
+            print(curr_perf)
+            splitwise_perf.append(curr_perf)
+            # save model
+            #save_model(clf,format("models//ebm_covonly_split%d_1to10_int%d.pkl" % (split, interac)))
+            #save_model(clf,format("models/100trials/ebm_covonly_split%d_1to1_int100_trial%d.pkl" % (split, interac)))
+        print('             AUC-PR   ROC   F-MAX   EARLY-PREC@0.1  EARLY-PREC@0.2  EARLY-PREC@0.5') 
+        print('[AVERAGE] ',np.mean(splitwise_perf,axis=0))
+        
