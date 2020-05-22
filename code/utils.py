@@ -9,6 +9,7 @@ from sklearn import metrics
 from sklearn.model_selection import train_test_split, KFold, cross_validate, GridSearchCV, StratifiedKFold
 from sklearn.linear_model import LogisticRegression
 import matplotlib.pyplot as plt
+import pickle
 
 from rpy2.robjects.packages import importr
 from rpy2.robjects import FloatVector
@@ -198,3 +199,8 @@ def compute_fmax(prec, rec, fmax_idx=False):
     else:
         return max(f_measures)
 
+
+def save_model(ebm, model_file):
+    model_pkl = open(model_file, 'wb')
+    pickle.dump(ebm,model_pkl)
+    model_pkl.close()
