@@ -5,7 +5,7 @@ Meghana Kshirsagar, Nure Tasnina, Michael D. Ward, Jeffrey N. Law, T. M. Murali,
 The features are not available here due to size limits, but please email me and I can share a dropbox link: mekshirs@microsoft.com
 
 <h2> Plots </h2>
-PCA/T-SNE interactive plot is in the html file and should be downloaded and opened in a browser to visualize. Also available are GO enrichment visualizations.
+PCA/T-SNE interactive plot is in the <b>allviruses_plot.html</b> html file and should be downloaded and opened in a browser to visualize. Also available are GO enrichment visualizations.
 
 <h2> Predictions </h2>
 Predictions from the model on all pairs of virus-human proteins are in the results directory
