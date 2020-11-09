@@ -1,5 +1,5 @@
 This repository contains code and results from the <b><i>Pacific Symposium of Biocomputing 2021 </i></b> paper: <br>
-<h3> Protein sequence models for prediction and comparative analysis of the SARS-CoV-2−human interactome </h3> <br>
+<h3> Protein sequence models for prediction and comparative analysis of the SARS-CoV-2−human interactome </h3>
 Meghana Kshirsagar, Nure Tasnina, Michael D. Ward, Jeffrey N. Law, T. M. Murali, Juan Lavista Ferres, Gregory R. Bowman, Judith Klein-Seetharaman
 
 The features are not available here due to size limits, but please email me and I can share a dropbox link: mekshirs@microsoft.com
